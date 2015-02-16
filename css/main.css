@@ -1,0 +1,232 @@
+@font-face {
+	font-family: "Futura";
+	font-weight: normal;
+	font-style: normal;
+	src: url('fonts/FuturaStd-Light.otf') format('opentype');
+}
+
+@font-face {
+	font-family: "Futura-Medium";
+	font-weight: normal;
+	font-style: normal;
+	src: url('fonts/FuturaStd-Medium.otf') format('opentype');
+}
+
+@font-face {
+	font-family: "Logo";
+	font-weight: normal;
+	font-style: normal;
+	src: url('fonts/space age.ttf') format('truetype');
+}
+
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+a{
+	text-decoration: none;
+	color: white;
+}
+
+nav a{
+	font-family: "Futura-Medium";
+	font-size: 16px;
+
+	display: block;
+	color: white;
+	background-color: #222222;
+	margin: 0.25em;
+	padding: 0.25em 0.45em;
+}
+
+nav{
+	position: fixed;
+	top: 7em;
+	z-index: 1;
+	width: 20%;
+	background-color: #222222;
+	color: white;
+	right: 0;
+	padding-left: 1em;
+	padding-right: 1em;
+}
+
+nav a:active, a:hover {
+	background-color: #A7A9AB;
+}
+
+img {
+	height: auto;
+	max-width: 100%;
+}
+
+.header {
+	display: block;
+	padding: 5px;
+	background-color: #222222;
+	color: white;
+	text-align: center;
+	display: inline-block;
+	position:fixed;
+	top: 0;
+	width:100%;
+}
+
+h1{
+	font-family: "Logo";
+	font-size: 2em;
+	margin: 1em;
+}
+
+h2{
+	font-family: "Futura-Medium";
+	font-size: 30;
+	margin-top: 3em;
+}
+
+h3{
+	font-family: "Futura-Medium";
+	font-size: 20;
+}
+
+h4{
+	font-family: "Futura-Medium";
+	font-size: 10;
+	margin-bottom: 0;
+	color: black;
+	margin-top: 5px;
+}
+
+p {
+	font-family: "Futura";
+	font-size: 15;
+}
+
+form {
+	display: block;
+	padding: 1em;
+	padding-bottom: 0;
+	font-family: "Futura";
+}
+
+.input-wrapper {
+	margin: 0 0 1em 0; /* Here we are defining the margins for 'top right bottom left' */
+}
+
+label{
+	display:block;
+}
+
+.blackblocks{
+	display: inline-block;
+	margin: 1 1 1 1;
+	padding: 1em;
+	background-color: #222222;
+	border: solid #222222;
+	color: white;
+}
+
+.whiteblocks{
+	display: inline-block;
+	margin: 1 1 1 1;
+	padding: 1em;
+	background-color: #FFFFFF;
+	border: solid #222222;
+	color: black;
+}
+
+.redblocks{
+	display: inline-block;
+	margin: 1 1 1 1;
+	padding: 1em;
+	background-color: #761117;
+	border: solid #761117;
+	color: white;
+}
+
+.greyblocks{
+	display: inline-block;
+	margin: 1 1 1 1;
+	padding: 1em;
+	background-color: #A7A9AB;
+	border: solid #A7A9AB;
+	color: white;
+	clear: right;
+}
+
+.blacktext {
+	color: #222222;
+}
+
+.whitetext {
+	color: #FFFFFF;
+	background-color: #222222;
+	padding: 0.5em;
+}
+
+.redtext {
+	color: #761117;
+}
+
+.greytext {
+	color: #A7A9AB;
+}
+
+a {
+	font-family: "Futura";
+}
+
+a.blackbutton {
+	display: inline-block;
+ 	padding: 1em 1em;
+  	color: #222222;
+  	border: solid #222222;
+  	text-decoration: none;
+}
+
+a.blackbutton:hover, a.blackbutton:active{
+	background-color: #222222;
+	color: white;
+}
+
+a.redbutton {
+	display: inline-block;
+ 	padding: 1em 1em;
+  	color: #761117;
+  	border: solid #761117;
+  	text-decoration: none;
+}
+
+a.redbutton:hover, a.redbutton:active{
+	background-color: #761117;
+	color: white;
+}
+
+a.greybutton {
+	display: inline-block;
+ 	padding: 1em 1em;
+  	color: #A7A9AB;
+  	border: solid #A7A9AB;
+  	text-decoration: none;
+}
+
+a.greybutton:hover, a.greybutton:active{
+	background-color: #A7A9AB;
+	color: white;
+}
+
+.webnavbar {
+	background-color: #222222;
+}
+
+.bodytext {
+	display: inline-block;
+	margin-left: 3em;
+	width: 70%;
+	padding-top: 7em;
+}
+
+.sampleCode {
+	color:#761117;
+}

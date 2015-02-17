@@ -230,3 +230,14 @@ a.greybutton:hover, a.greybutton:active{
 .sampleCode {
 	color:#761117;
 }
+
+.samplenav{
+	height: 40px;
+}
+
+
+
+.mobilenav nav {
+	position: static;
+
+}

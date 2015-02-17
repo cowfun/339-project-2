@@ -6,6 +6,18 @@
 	<meta charset = "utf-8">
 	<title> PROJECT HALO: Style Guide </title>
 	<link rel = "stylesheet" href = "css/main.css">
+	 <link href="css/grid.css" rel="stylesheet">
+	  <link href="css/nav.css" rel="stylesheet">
+	  <link rel="stylesheet" href="//code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css">
+	  
+  <script src="http://code.jquery.com/jquery-1.10.2.js"></script>
+  <script src="http://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
+  <link rel="stylesheet" href="http://jqueryui.com/resources/demos/style.css">
+  <script>
+  $(function() {
+    $( "#datepicker" ).datepicker();
+  });
+  </script>
 
 </head>
 
@@ -17,6 +29,9 @@
       <a href="#buttons">BUTTONS</a>
       <a href="#forms">FORMS</a>
       <a href="#imgexamples">IMAGE EXAMPLES</a>
+      <a href="#navigation">NAVIGATION</a>
+      <a href="#animation">ANIMATION</a>
+      <a href="#grid">GRID</a>
     </nav>
 
 	<div class="header">
@@ -205,6 +220,9 @@
 			<h4> Sample Code </h4>
 				<code class="sampleCode"> &lt;input type="text" id="form-phone" placeholder="(000) 000-0000"&gt;</code>
 
+
+				<p>Date: <input type="text" id="datepicker"></p>
+
 		</section>
 
 		<section id = "imgexamples">
@@ -221,8 +239,89 @@
 			<img src="img/spacex-dragon.jpg" height="806" width="2000" alt="Satellite in orbit">
 		</section>
 
-	</div>	
 
+		<section id = "navigation">
+
+			<h2> NAVIGATION </h3>
+			<!--<div class="samplenav">
+				<nav>
+	         		<a href="#flights">Flights </a> |
+	          		<a href="#info">Informtion </a> |
+	          		<a href="#contact">Contact</a>
+				</nav> 
+			</div>-->
+
+			<div class="mobilenav">
+				<ul id="nav">
+						<li><a href="#">Home</a></li>
+						<li><a href="#">About</a></li>
+						<li><a href="#">Contact</a></li>
+					</ul>
+				
+			</div>
+
+
+
+
+			<h4> Sample Code </h4>
+			<code class="sampleCode"> 
+				&lt;ul id="nav"&gt;<br>
+				&lt;li&gt;<br>
+				&lt;a href="#"&gt;Home
+				&lt;/a&gt;
+				&lt;/li&gt;<br>
+				&lt;/ul&gt;
+
+			</code>
+
+			
+		</section>
+
+		<section id="grid">
+			<h2> GRID </h3>
+			<h4> Sample Code </h4>
+			<code class="sampleCode">&lt;class="grid_3"&gt;grid 3/12&lt;/div&gt;<br>
+				&lt;class="grid_4"&gt;grid 4/12&lt;/div&gt;
+				&lt;class="grid_5"&gt;grid 5/12&lt;/div&gt;
+			</code>
+      <h3>Rendered element:</h3>
+     
+      
+
+
+      <div class="grid_3">
+        <p class="light">
+            grid 3/12
+        </p>
+        </div>
+      <div class="grid_4">
+          <p class="light">
+            grid 4/12
+        </p>
+      </div>
+      <div class="grid_5 omega">
+          <p class="light">
+            grid 5
+        </p>
+      </div>
+
+
+       
+		</section>
+
+	</div>	
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+					<script type="text/javascript">
+						$("#nav").addClass("js").before('<div id="menu">&#9776;</div>');
+						$("#menu").click(function(){
+							$("#nav").toggle();
+						});
+						$(window).resize(function(){
+							if(window.innerWidth > 1224) {
+								$("#nav").removeAttr("style");
+							}
+						});
+					</script>
 
 </body>
 

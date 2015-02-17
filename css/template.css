@@ -1,0 +1,57 @@
+@font-face {
+	font-family: "Futura";
+	font-weight: normal;
+	font-style: normal;
+	src: url('fonts/FuturaStd-Light.otf') format('opentype');
+}
+
+@font-face {
+	font-family: "Futura-Medium";
+	font-weight: normal;
+	font-style: normal;
+	src: url('fonts/FuturaStd-Medium.otf') format('opentype');
+}
+
+@font-face {
+	font-family: "Logo";
+	font-weight: normal;
+	font-style: normal;
+	src: url('fonts/space age.ttf') format('truetype');
+}
+
+html, body{
+	padding: 0;
+	margin: 0;
+}
+
+*, *::after, *::before{
+	font-family: "Futura";
+	font-weight: "10px";
+}
+
+h1{
+	display: inline-block;
+	font-family: "Logo";
+	padding-left: 10px;
+}
+
+h2{
+	font-weight: "12px";
+}
+
+.header{
+	display: inline-block;
+	background-color: #222222;
+	color: white;
+	width: 100%;
+	padding-bottom: 1em;
+}
+
+a:link{
+	display: inline-block;
+	float: right;
+	text-decoration: none;
+	padding-left: 2.5em;
+	padding-right: 10px;
+	color: white;
+}

@@ -1,3 +1,14 @@
+nav a, nav a:visited {
+	width: 100%;
+	display: inline-block;
+	background-color: blue;
+	color: #FFFFFF;
+	padding: 1em 1.25em;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
+
 @font-face {
 	font-family: "Futura";
 	font-weight: normal;
@@ -27,29 +38,6 @@ html, body{
 a{
 	text-decoration: none;
 	color: white;
-}
-
-nav a{
-	font-family: "Futura-Medium";
-	font-size: 16px;
-
-	display: block;
-	color: white;
-	background-color: #222222;
-	margin: 0.25em;
-	padding: 0.25em 0.45em;
-}
-
-nav{
-	position: fixed;
-	top: 7em;
-	z-index: 1;
-	width: 20%;
-	background-color: #222222;
-	color: white;
-	right: 0;
-	padding-left: 1em;
-	padding-right: 1em;
 }
 
 nav a:active, a:hover {

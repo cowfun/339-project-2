@@ -17,11 +17,6 @@
 .box-item-nav{
 	flex-grow: 1;
 }
-
-nav a{
-	width: 100%;
-}
-
 .box-item-article {
 	flex-grow: 1;
 	flex-basis: 20em;

@@ -94,10 +94,6 @@ h1{
 	border: 1px solid black;
 }
 
-.spacer{
-	border-bottom: 1px dotted black;
-}
-
 h2{
 	font-family: "Futura-Medium";
 	font-size: 30;
@@ -135,6 +131,11 @@ form {
 
 label{
 	display:block;
+}
+
+.flightphotos{
+	width: 33%;
+	border: 1px solid black;
 }
 
 .blackblocks{

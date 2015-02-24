@@ -56,18 +56,6 @@ p {
 	color: black;
 }
 
-.header {
-	display: block;
-	padding: 5px;
-	background-color: #222222;
-	color: white;
-	text-align: center;
-	position:fixed;
-	top: 0;
-	width:100%;
-	clear: left;
-}
-
 
 h1{
 	display: block;
@@ -89,6 +77,27 @@ h1{
 	padding-bottom: 46px;
 }
 
+.placeholderSmallBox{
+	display:block;
+	padding-top:60px;
+	padding-top:60px;
+	width: 90%;
+	border: 1px solid black;
+}
+
+.placeholderSmallBox{
+	display:inline-block;
+	width: 90%;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	margin-left:5%;
+	border: 1px solid black;
+}
+
+.spacer{
+	border-bottom: 1px dotted black;
+}
+
 h2{
 	font-family: "Futura-Medium";
 	font-size: 30;
@@ -97,6 +106,7 @@ h2{
 h3{
 	font-family: "Futura-Medium";
 	font-size: 20;
+	margin-left: 5%;
 }
 
 h4{

@@ -10,7 +10,6 @@
 	display: -webkit-flex;
 	display: -ms-flex;
 	display: flex;
-
 	flex-wrap: wrap;
 }
 
@@ -36,6 +35,7 @@ nav a{
 .box-item-article-text {
 	flex-grow: 2;
 	flex-basis: 20em;
+	text-align: center;
 }
 
 @media (max-width: 30em) {

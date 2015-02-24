@@ -1,9 +1,14 @@
 /* ONE TWO */
 
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
 nav a, nav a:visited {
 	width: 100%;
 	display: inline-block;
-	background-color: blue;
+	background-color: #222222;
 	color: #FFFFFF;
 	padding: 1em 1.25em;
 	text-decoration: none;
@@ -32,11 +37,6 @@ nav a, nav a:visited {
 	src: url('fonts/space age.ttf') format('truetype');
 }
 
-html, body{
-	margin: 0;
-	padding: 0;
-}
-
 a{
 	text-decoration: none;
 	color: white;
@@ -51,33 +51,58 @@ img {
 	max-width: 100%;
 }
 
-.header {
-	display: block;
-	padding: 5px;
-	background-color: #222222;
-	color: white;
-	text-align: center;
-	display: inline-block;
-	position:fixed;
-	top: 0;
-	width:100%;
+p {
+	font-family: "Futura";
+	color: black;
 }
 
+
 h1{
+	display: block;
+	position: absolute;
 	font-family: "Logo";
 	font-size: 2em;
-	margin: 1em;
+	width: 100%;
+	padding-top: 30px;
+	padding-bottom: 30px;
+	text-align: center;
+	background-color: #222222;
+	color: white;
+	margin: 0;
+}
+
+.placeholderBox{
+	display:block;
+	padding-top: 46px;
+	padding-bottom: 46px;
+}
+
+.placeholderSmallBox{
+	display:block;
+	padding-top:60px;
+	padding-top:60px;
+	width: 90%;
+	border: 1px solid black;
+}
+
+.placeholderSmallBox{
+	display:inline-block;
+	width: 90%;
+	padding-top: 120px;
+	padding-bottom: 120px;
+	margin-left:5%;
+	border: 1px solid black;
 }
 
 h2{
 	font-family: "Futura-Medium";
 	font-size: 30;
-	margin-top: 3em;
 }
 
 h3{
 	font-family: "Futura-Medium";
 	font-size: 20;
+	margin-left: 5%;
 }
 
 h4{
@@ -106,6 +131,11 @@ form {
 
 label{
 	display:block;
+}
+
+.flightphotos{
+	width: 33%;
+	border: 1px solid black;
 }
 
 .blackblocks{
@@ -225,9 +255,20 @@ a.greybutton:hover, a.greybutton:active{
 	height: 40px;
 }
 
-
+.placeholderSplashImage{
+	display:inline-block;
+	width: 100%;
+    height: 30em;
+    border: 25px solid navy;
+	border: 1px solid black;
+}
 
 .mobilenav nav {
 	position: static;
 
+}
+.contentt {
+	margin-top: 0%;
+	width: 100%;
+	display: inline-block;
 }

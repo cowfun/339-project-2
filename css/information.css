@@ -1,14 +1,19 @@
+html{
+	background-color:#7D7E7D;
+	color:#fff;
+}
+
 .pgContent{
 	/*position: absolute;*/
 	margin-top: auto;
 	width: 100%;
 	height: 200px;
-	background-color: #fff;
+	/*background-color: #fff;*/
 }
 
 .contentImg{
 	display: inline-block;
-	background-color: #ccc;
+	/*background-color: #ccc;*/
 	height: 40em;
 
 }
@@ -42,6 +47,12 @@
 
 .textinfo{
 	padding:2em;
+	color:#fff;
+	border-right: 1px solid #fff;
+}
+
+p{
+ color:#fff;
 }
 .footer{
 

@@ -56,6 +56,14 @@ p {
 	color: black;
 }
 
+.box-item-article-image{
+	text-align: center;
+}
+
+.image-text {
+	margin-top: 0px;
+}
+
 
 h1{
 	display: block;

@@ -1,4 +1,4 @@
-/* ONE TWO */
+/* ONE TWO Three*/
 
 html, body{
 	margin: 0;
@@ -54,6 +54,14 @@ img {
 p {
 	font-family: "Futura";
 	color: black;
+}
+
+.box-item-article-image{
+	text-align: center;
+}
+
+.image-text {
+	margin-top: 0px;
 }
 
 

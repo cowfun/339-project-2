@@ -37,6 +37,17 @@ nav a, nav a:visited {
 	src: url('fonts/space age.ttf') format('truetype');
 }
 
+figcaption{
+	position: absolute;
+	color: white;
+	bottom: 1em;
+	left: 3.5em;
+}
+
+figure{
+	position: relative;
+}
+
 a{
 	text-decoration: none;
 	color: white;

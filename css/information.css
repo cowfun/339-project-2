@@ -10,7 +10,7 @@
 	display: inline-block;
 	background-color: #ccc;
 	height: 40em;
-	
+
 }
 
 .flightTitle h2{
@@ -39,8 +39,12 @@
 
 
 }
+
+.textinfo{
+	padding:2em;
+}
 .footer{
-	
+
 	width: 100%;
 	padding: 10px;
 	background-color: #000;

@@ -12,10 +12,10 @@ nav .box-item-nav a:hover{
 	position: relative;
 	display: inline-table;
 }
-nav .box-item-nav a:hover > ul {
+	nav .box-item-nav a:hover > ul {
 		display: block;
 
-}
+	}
 
 .heading{
 	background-color: #000;

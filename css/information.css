@@ -49,6 +49,9 @@ html{
 
 }
 .imgbox{
+	background-image:url('img/canaveral.jpg');
+	height:50%;
+	display:block;
 
 
 }
@@ -79,4 +82,9 @@ p{
 	text-align:center;
 	margin-left:auto;
 	margin-right:auto;
+}
+
+.overlaytext{
+	z-index:2;
+
 }

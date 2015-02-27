@@ -1,0 +1,16 @@
+input{
+  height:30px;
+  padding:20px;
+
+ border: none;
+ border-bottom: solid 2px #c9c9c9;
+ transition: border 0.3s;
+}
+
+form .grid_4{
+  height:80px;
+}
+
+form .grid_6{
+  height:80px;
+}

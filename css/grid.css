@@ -28,7 +28,8 @@
 	float: left;
 	display: block;
 	/*background-color: #ccc;*/
-	height: 150px;
+	/*height: 150px;*/
+	height:auto;
 }
 
 .alpha{margin-left:0;}

@@ -1,3 +1,7 @@
+html{
+	background-color:#000;
+}
+
 nav .box-item-nav ul {
 	display: none;
 }
@@ -35,31 +39,43 @@ nav .box-item-nav a:hover{
 	display: inline-block;
 	background-color: #ccc;
 	height: 40em;
+	background: url(../img/spacex-dragon.jpg) no-repeat center center fixed;
+
+
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 
 }
 
 .flightTitle h2{
 	text-align: center;
+	z-index:2;
 
 }
 
 .flightButton a{
 	float: none;
-	width: 100px;
+	z-index:3;
 	display: block;
-  padding: 0.5em 2em;
+	width:100%;
   color: #000;
-  border: 1px solid #000;
- margin-left: auto;
- margin-right: auto;
-  margin-top: 80%;
+
+	height:40em;
   text-decoration: none;
   display: inline-block;
   /*position: relative;*/
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
-
+	opacity:0.6;
 }
+
+.flightButton a:hover{
+	background-color:#000;
+}
+
+
 
 .footer{
 
@@ -69,4 +85,3 @@ nav .box-item-nav a:hover{
 	height: 10%;
 	display: inline-block;
 	color: #fff;
-}

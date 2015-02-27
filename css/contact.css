@@ -1,3 +1,8 @@
+html{
+	background-color:#7D7E7D;
+	color:#fff;
+}
+
 nav .box-item-nav ul {
 	display: none;
 }
@@ -18,5 +23,15 @@ nav .box-item-nav a:hover > ul {
 }
 
 input{
-	
+  height:30px;
+  padding:20px;
+width:90%;
+ border: none;
+ border-bottom: solid 2px #c9c9c9;
+ transition: border 0.3s;
+}
+.pgContent{
+	margin-right:auto;
+	margin-left:auto;
+	width:80%;
 }

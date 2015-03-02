@@ -46,6 +46,7 @@ figcaption{
 
 figure{
 	position: relative;
+	margin:0;
 }
 
 a{
@@ -71,8 +72,13 @@ p {
 	text-align: center;
 }
 
-.image-text {
-	margin-top: 0px;
+.image-text{
+	text-align: center;
+	display:block;
+}
+
+.splash-image-text{
+	position: relative;
 }
 
 

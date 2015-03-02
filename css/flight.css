@@ -8,9 +8,9 @@ nav .box-item-nav ul {
 
 nav .box-item-nav a:hover{
 	background: #4b545f;
-			background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
-			background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
-			background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+	background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+	background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+	background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
 
 	list-style: none;
 	position: relative;
@@ -39,14 +39,38 @@ nav .box-item-nav a:hover{
 	display: inline-block;
 	background-color: #ccc;
 	height: 40em;
-	background: url(../img/spacex-dragon.jpg) no-repeat center center fixed;
+
+
+}
+
+.f1{
+	background: url(../img/flight1.svg) no-repeat center center fixed;
 
 
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
 background-size: cover;
+}
 
+.f2{
+	background: url(../img/flight2.svg) no-repeat center center fixed;
+
+
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
+}
+
+.f3{
+	background: url(../img/flight2.svg) no-repeat center center fixed;
+
+
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover;
 }
 
 .flightTitle h2{

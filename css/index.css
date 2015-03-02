@@ -6,8 +6,13 @@
 }
 
 .homepage_image{
-	background: url(img/Splash_img_1.svg);
-	background-size: 1200px 800px;
+
+}
+
+
+.backgroundbox{
+	background: url(../img/Splash_img_1.svg);
+
 	background-repeat: no-repeat;
 
 	-webkit-background-size: cover;

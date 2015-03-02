@@ -3,7 +3,7 @@ html{
 }
 
 nav .box-item-nav ul {
-	display: none;
+	visibility:hidden;
 }
 
 nav .box-item-nav a:hover{
@@ -17,7 +17,7 @@ nav .box-item-nav a:hover{
 	display: inline-table;
 }
 	nav .box-item-nav a:hover > ul {
-		display: block;
+		visibility:visible;
 
 	}
 

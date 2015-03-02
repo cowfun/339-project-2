@@ -1,0 +1,15 @@
+.backgroundbox{
+	width: 100%;
+	height: 800px;
+}
+
+.homepage_image{
+	background: url(img/Splash_img_1.svg);
+	background-size: 1200px 800px;
+	background-repeat: no-repeat;
+
+	-webkit-background-size: cover;
+	-moz-background-size: cover;
+	-o-background-size: cover;
+	background-size: cover;
+}

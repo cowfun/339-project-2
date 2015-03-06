@@ -1,8 +1,6 @@
 /* Changes */
-
-.backgroundbox{
-	width: 100%;
-	height: 800px;
+html{
+	background-color:#222;
 }
 
 .homepage_image{
@@ -11,18 +9,113 @@
 
 
 .backgroundbox{
+
 	background: url(../img/Splash_img_1.svg);
 
-	background-repeat: no-repeat;
 
+
+	background-repeat: no-repeat;
+	background-position:center;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
 	background-size: cover;
+
+	width:100%;
+	height:700px;
+	overflow: scroll
 }
 
 .categoryNames{
 	margin-top: 3px;
 }
 
-.testing{}
+
+.eventButton{
+	width: 240px;
+	height: 240px;
+}
+
+.backgroundBox{
+	background-color: #222222;
+	padding: 0;
+}
+
+.box-item-article-text{
+	display: block;
+	height: 50px;
+	margin: 0 auto;
+}
+
+.box-item-article-image{
+	text-align: center;
+	margin-top: 20px;
+	padding: 0;
+}
+
+.categoryNames{
+	width: 240px;
+	padding-top: 10px;
+	margin: 0 auto;
+	color: white;
+}
+
+.borderPatrol{
+	width: 320px;
+	border-bottom: thin solid white;
+	margin: 0 auto;
+	margin-top: 20px;
+
+}
+
+.imgBorder{
+	padding:0;
+	width: 70%;
+	height: auto;
+	border: thin solid white;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.imgBorder a:hover{
+	opacity:0.5;
+	transition:opacity.8s ease;
+}
+.imgBorder a:hover .hoverText{
+
+	transition:opacity.5s ease;
+	visibility:visible;
+}
+
+.hoverText{
+
+	color:#fff;
+/*visibility:hidden;*/
+	text-align:center;
+
+
+
+
+}
+
+.imageButton{
+	margin: 0 auto;
+	text-align: center;
+}
+
+/*modification after adding grid*/
+.eventBox{
+	background-color:#222222;
+}
+
+#sectionTitle{
+	text-align:center;
+	color:#fff;
+	padding:20px;
+}
+
+#columnItem{
+	margin-bottom:2em;
+
+}
+>>>>>>> master

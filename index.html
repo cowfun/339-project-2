@@ -6,8 +6,8 @@
 
 		<meta charset = "utf-8">
 		<title> Project Halo Homepage </title>
-		<!--<link rel = "stylesheet" href = "css/template.css">-->
-		<link rel = "stylesheet" href = "css/flexgrid.css">
+		<link rel = "stylesheet" href = "css/nav.css">
+		<link rel = "stylesheet" href = "css/grid.css">
 		<link rel = "stylesheet" href = "css/main.css">
 		<link rel = "stylesheet" href = "css/index.css">
 
@@ -15,94 +15,150 @@
 
 	<body>
 
-		<h1> PROJECT HALO</h1>
-		<div class = "placeholderBox">
-		</div>
+		<a href = "index.html"> <img alt = "Header Logo for Project Halo" src = "img/project-halo-header.jpg" height = "200" width = "1280"> </a>
 
-		<!-- Fudge Navigational Bar -->
-		<nav class = "box">
-				<div class = "box-item-nav">
+		<!-- Navigational Bar -->
+		<nav class = "grid-18 navContainer">
+
+				<div class = "grid-6 navitems left">
 					<a href = "flights.html"> FLIGHTS </a>
+					<ul>
+							<li><a href="">SubNav Test1</a><li>
+							<li><a href="">Test2</a><li>
+					</ul>
 				</div>
 
-				<div class = "box-item-nav">
+				<div class = "grid-6 navitems inner">
 					<a href = "information.html"> INFORMATION </a>
+					<ul>
+							<li><a href="">Test1</a><li>
+							<li><a href="">Test2</a><li>
+					</ul>
 				</div>
 
-				<div class = "box-item-nav">
+				<div class = "grid-6 navitems right">
 					<a href = "contact.html"> CONTACT US </a>
 				</div>
+
 		</nav>
 
 		<div class ="backgroundbox">
+			<div class = "imageButton">
+				<a href = "flights.html"> PURCHASE FLIGHT </a>
+			</div>
 			<div class = "homepage_image">
 			</div>
 		</div>
 
 		<!-- Area for Information -->
+		<div class ="eventBox">
+			<div class="grid_12">
+				<h2 id="sectionTitle">Events and News</h2>
+				<article id = "Events" class="grid_4">
+					<div class = "grid_12" id="columnItem">
+						<div class = "box-item-article-image">
+							<div class = "imgBorder">
+								<a href = "events.html"> <img alt = "Splashscreen photo with the words, The Gateway to the Universe" src = "img/splash_square_1.svg"
+									height = "auto" width = "100%"> </a>
+							</div>
+						</div>
+						<div class = "box-item-article-text">
+							<h4 class = "categoryNames"> Harvesting Crystal Clusters as Fuel </h4>
+							<a href = "events.html"> <p class="hoverText">Learn More</p> </a>
+							<div class = "borderPatrol">
+							</div>
+						</div>
+					</div>
 
-		<h3> Events </h3>
-		<div class="box">
-			<article id = "Events" class = "box-item-article">
-				<div class = "box">
-					<div class = "box-item-article-image">
-						<img alt = "Splashscreen photo with the words, The Gateway to the Universe" src = "img/splash_square_1.svg" height = "240" width = "240">
-					</div>
-					<div class = "box-item-article-text">
-						<p class = "categoryNames"> Harvesting Crystal Clusters as Fuel </p>
-					</div>
-				</div>
+					<div class = "grid_12" id="columnItem">
+						<div class = "box-item-article-image">
+							<div class = "imgBorder">
+								<a href = "events.html"> <img alt = "Splashscreen photo with the words, The Gateway to the Universe" src = "img/splash_square_2.svg"
+								 height="auto" width = "100%"> </a>
+							</div>
+						</div>
+						<div class = "box-item-article-text">
+							<h4 class = "categoryNames"> Harvesting Crystal Clusters as Fuel </h4>
+							<a href = "events.html"> <p class="hoverText">Learn More</p> </a>
+							<div class = "borderPatrol">
+							</div>
 
-				<div class = "box">
-					<div class = "box-item-article-image">
-						<img alt = "Splashscreen photo with the words, The Gateway to the Universe" src = "img/splash_square_2.svg" height = "240" width = "240">
+						</div>
 					</div>
-					<div class = "box-item-article-text">
-						<p class = "categoryNames"> Harvesting Crystal Clusters as Fuel </p>
-					</div>
-				</div>
-			</article>
+				</article>
 
-			<article id = "information" class = "box-item-article">
-				<div class = "box">
-					<div class = "box-item-article-image">
-						<img alt = "Splashscreen photo with the words, The Gateway to the Universe" src = "img/splash_square_3.svg" height = "240" width = "240">
+				<article id = "information" class = "grid_4">
+					<div class = "grid_12" id="columnItem">
+						<div class = "box-item-article-image">
+							<div class = "imgBorder">
+								<a href = "events.html"> <img alt = "Splashscreen photo with the words, The Gateway to the Universe" src = "img/splash_square_3.svg"
+									height = "auto" width = "100%"> </a>
+							</div>
+						</div>
+						<div class = "box-item-article-text">
+							<h4 class = "categoryNames"> Harvesting Crystal Clusters as Fuel </h4>
+							<a href = "events.html"> <p class="hoverText">Learn More</p> </a>
+							<div class = "borderPatrol">
+							</div>
+						</div>
 					</div>
-					<div class = "box-item-article-text">
-						<p class = "categoryNames"> Harvesting Crystal Clusters as Fuel </p>
-					</div>
-				</div>
 
-				<div class = "box">
-					<div class = "box-item-article-image">
-						<img alt = "Splashscreen photo with the words, The Gateway to the Universe" src = "img/splash_square_4.svg" height = "240" width = "240">
+					<div class = "grid_12" id="columnItem">
+						<div class = "box-item-article-image">
+							<div class = "imgBorder">
+								<a href = "events.html"> <img alt = "Splashscreen photo with the words, The Gateway to the Universe" src = "img/splash_square_4.svg"
+									height = "auto" width = "100%"> </a>
+							</div>
+						</div>
+						<div class = "box-item-article-text">
+							<h4 class = "categoryNames"> Harvesting Crystal Clusters as Fuel </h4>
+							<a href = "events.html"> <p class="hoverText">Learn More</p> </a>
+							<div class = "borderPatrol">
+							</div>
+						</div>
 					</div>
-					<div class = "box-item-article-text">
-						<p class = "categoryNames"> Harvesting Crystal Clusters as Fuel </p>
-					</div>
-				</div>
-			</article>
+				</article>
 
-			<article id = "information" class = "box-item-article">
-				<div class = "box">
-					<div class = "box-item-article-image">
-						<img alt = "Splashscreen photo with the words, The Gateway to the Universe" src = "img/splash_square_5.svg" height = "240" width = "240">
+				<article id = "information" class = "grid_4 omega">
+					<div class = "grid_12" id="columnItem">
+						<div class = "box-item-article-image">
+							<div class = "imgBorder">
+								<a href = "events.html"> <img alt = "Splashscreen photo with the words, The Gateway to the Universe" src = "img/splash_square_5.svg"
+									height = "auto" width = "100%"> </a>
+							</div>
+						</div>
+						<div class = "box-item-article-text">
+							<h4 class = "categoryNames"> Harvesting Crystal Clusters as Fuel </h4>
+							<a href = "events.html"> <p class="hoverText">Learn More</p> </a>
+							<div class = "borderPatrol">
+							</div>
+						</div>
 					</div>
-					<div class = "box-item-article-text">
-						<p class = "categoryNames"> Harvesting Crystal Clusters as Fuel </p>
-					</div>
-				</div>
 
-				<div class = "box">
-					<div class = "box-item-article-image">
-						<img alt = "Splashscreen photo with the words, The Gateway to the Universe" src = "img/splash_square_6.svg" height = "240" width = "240">
+					<div class = "grid_12" id="columnItem">
+						<div class = "box-item-article-image">
+							<div class = "imgBorder">
+								<a href = "events.html"> <img alt = "Splashscreen photo with the words, The Gateway to the Universe" src = "img/splash_square_6.svg"
+									height = "auto" width = "100%"> </a>
+							</div>
+						</div>
+						<div class = "box-item-article-text">
+							<h4 class = "categoryNames"> Harvesting Crystal Clusters as Fuel </h4>
+							<a href = "events.html"> <p class="hoverText">Learn More</p> </a>
+							<div class = "borderPatrol">
+							</div>
+						</div>
 					</div>
-					<div class = "box-item-article-text">
-						<p class = "categoryNames"> Harvesting Crystal Clusters as Fuel </p>
-					</div>
-				</div>
-			</article>
+				</article>
+			</div>
+		</div>
 
+		<div class="footer">
+			<div class = "grid_12">
+				<div class = "grid_4"></div>
+				<div class = "grid_4"></div>
+				<div class = "grid_4 omega"></div>
+			</div>
 		</div>
 
 	</body>

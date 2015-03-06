@@ -68,7 +68,7 @@ p {
 	color: black;
 }
 
-.box-item-article-image{
+h4{
 	text-align: center;
 }
 
@@ -148,7 +148,6 @@ p {
 form {
 	display: block;
 	padding: 1em;
-	padding-bottom: 0;
 	font-family: "Futura";
 }
 
@@ -306,6 +305,20 @@ a.greybutton:hover, a.greybutton:active{
 	width:20%;
 	margin-left:auto;
 	margin-right:auto;
+
+}
+
+.footer{
+
+	width: 100%;
+	padding: 10px;
+	background-color: #404041;
+	height: 10%;
+	display: inline-block;
+	color: #fff;
+}
+
+.footer img{
 
 }
 

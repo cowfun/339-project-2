@@ -43,6 +43,27 @@
 }
 
 
+/* grid without gutter */
+.grid-18,
+	.grid-15, /* 9 + 6 = 15 with 3 more = 18 */
+	.grid-12, /* 9 + 3 = 12 with 6 more = 18 */
+.grid-9,
+.grid-6,
+.grid-3,
+.grid-1 { clear: none; float: left; }
+
+.grid-18 { width: 100%; }
+	.grid-15 { width: 83.3333333%; } /* 9 + 6 = 15 with 3 more = 18 */
+	.grid-12 { width: 66.6666666%; } /* 9 + 3 = 12 with 6 more = 18 */
+																	/* Percentage Math */
+.grid-9  { width: 50%; }         /* 100 /2 */
+.grid-6  { width: 33.3333333%; } /* 100 /3 */
+.grid-3  { width: 16.6666666%; } /* 100 /6 */
+.grid-1  { width:  5.5555555%; } /* 100 /18 */
+
+.left  { margin-left: 0; }
+.right { margin-right: 0; }
+
 
 .clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html .clearfix,*:first-child+html .clearfix{zoom:1}
 

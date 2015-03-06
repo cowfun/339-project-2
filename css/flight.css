@@ -112,13 +112,3 @@ background-size: cover;
 	padding:10px;
 	margin-right:1em;
 }
-
-.footer{
-
-	width: 100%;
-	padding: 10px;
-	background-color: #000;
-	height: 10%;
-	display: inline-block;
-	color: #fff;
-}

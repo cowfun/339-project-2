@@ -308,6 +308,20 @@ a.greybutton:hover, a.greybutton:active{
 
 }
 
+.footer{
+
+	width: 100%;
+	padding: 10px;
+	background-color: #404041;
+	height: 10%;
+	display: inline-block;
+	color: #fff;
+}
+
+.footer img{
+
+}
+
 nav .box-item-nav ul {
 	display: none;
 }
@@ -326,11 +340,3 @@ nav .box-item-nav a:hover{
 		display: block;
 
 	}
-
-.footer{
-	background-color:#eee;
-	height:20%;
-	position:relative;
-	bottom:0;
-	z-index:100;
-}

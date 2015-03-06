@@ -97,6 +97,11 @@ html{
 
 }
 
+.imageButton{
+	margin: 0 auto;
+	text-align: center;
+}
+
 /*modification after adding grid*/
 .eventBox{
 	background-color:#222222;

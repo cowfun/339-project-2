@@ -67,15 +67,41 @@ html{
 }
 
 .imgBorder{
-	width: 240px;
-	height: 240px;
+	width: 70%;
+	height: auto;
 	border: thin solid white;
 	margin: 0 auto;
 	margin-top: 20px;
 }
 
+.imgBorder a:hover{
+	opacity:0.5;
+	transition:opacity.8s ease;
+}
+.imgBorder a:hover .hoverText{
+
+	transition:opacity.5s ease;
+	opacity:1;
+}
+
+.hoverText{
+
+	color:#fff;
+	opacity:0;
+	text-align:center;
+	position:relative;
+	z-index:10;
+	background-color:#fff;
+
+}
 
 /*modification after adding grid*/
 .eventBox{
 	background-color:#222222;
+}
+
+#sectionTitle{
+	text-align:center;
+	color:#fff;
+	padding:20px;
 }

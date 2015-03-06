@@ -6,8 +6,8 @@
 
 		<meta charset = "utf-8">
 		<title> Project Halo Homepage </title>
-		<!--<link rel = "stylesheet" href = "css/template.css">-->
-		<link rel = "stylesheet" href = "css/flexgrid.css">
+		<link rel = "stylesheet" href = "css/nav.css">
+		<link rel = "stylesheet" href = "css/grid.css">
 		<link rel = "stylesheet" href = "css/main.css">
 		<link rel = "stylesheet" href = "css/index.css">
 
@@ -17,19 +17,29 @@
 
 		<a href = "index.html"> <img alt = "Header Logo for Project Halo" src = "img/project-halo-header.jpg" height = "200" width = "1280"> </a>
 
-		<!-- Fudge Navigational Bar -->
-		<nav class = "box">
-				<div class = "box-item-nav">
+		<!-- Navigational Bar -->
+		<nav class = "grid-18 navContainer">
+
+				<div class = "grid-6 navitems left">
 					<a href = "flights.html"> FLIGHTS </a>
+					<ul>
+							<li><a href="">SubNav Test1</a><li>
+							<li><a href="">Test2</a><li>
+					</ul>
 				</div>
 
-				<div class = "box-item-nav">
+				<div class = "grid-6 navitems inner">
 					<a href = "information.html"> INFORMATION </a>
+					<ul>
+							<li><a href="">Test1</a><li>
+							<li><a href="">Test2</a><li>
+					</ul>
 				</div>
 
-				<div class = "box-item-nav">
+				<div class = "grid-6 navitems right">
 					<a href = "contact.html"> CONTACT US </a>
 				</div>
+
 		</nav>
 
 		<div class ="backgroundbox">
@@ -38,10 +48,10 @@
 		</div>
 
 		<!-- Area for Information -->
-		<div class ="backgroundBox">
-			<div class="box">
-				<article id = "Events" class = "box-item-article">
-					<div class = "box">
+		<div class ="eventBox">
+			<div class="grid_12">
+				<article id = "Events" class="grid_4">
+					<div class = "grid_12">
 						<div class = "box-item-article-image">
 							<div class = "imgBorder">
 								<a href = "events.html"> <img alt = "Splashscreen photo with the words, The Gateway to the Universe" src = "img/splash_square_1.svg" height = "240" width = "240"> </a>
@@ -55,7 +65,7 @@
 						</div>
 					</div>
 
-					<div class = "box">
+					<div class = "grid_12">
 						<div class = "box-item-article-image">
 							<div class = "imgBorder">
 								<a href = "events.html"> <img alt = "Splashscreen photo with the words, The Gateway to the Universe" src = "img/splash_square_2.svg" height = "240" width = "240"> </a>
@@ -67,8 +77,8 @@
 					</div>
 				</article>
 
-				<article id = "information" class = "box-item-article">
-					<div class = "box">
+				<article id = "information" class = "grid_4">
+					<div class = "grid_12">
 						<div class = "box-item-article-image">
 							<div class = "imgBorder">
 								<a href = "events.html"> <img alt = "Splashscreen photo with the words, The Gateway to the Universe" src = "img/splash_square_3.svg" height = "240" width = "240"> </a>
@@ -79,7 +89,7 @@
 						</div>
 					</div>
 
-					<div class = "box">
+					<div class = "grid_12">
 						<div class = "box-item-article-image">
 							<div class = "imgBorder">
 								<a href = "events.html"> <img alt = "Splashscreen photo with the words, The Gateway to the Universe" src = "img/splash_square_4.svg" height = "240" width = "240"> </a>
@@ -91,8 +101,8 @@
 					</div>
 				</article>
 
-				<article id = "information" class = "box-item-article">
-					<div class = "box">
+				<article id = "information" class = "grid_4 omega">
+					<div class = "grid_12">
 						<div class = "box-item-article-image">
 							<div class = "imgBorder">
 								<a href = "events.html"> <img alt = "Splashscreen photo with the words, The Gateway to the Universe" src = "img/splash_square_5.svg" height = "240" width = "240"> </a>
@@ -103,7 +113,7 @@
 						</div>
 					</div>
 
-					<div class = "box">
+					<div class = "grid_12">
 						<div class = "box-item-article-image">
 							<div class = "imgBorder">
 								<a href = "events.html"> <img alt = "Splashscreen photo with the words, The Gateway to the Universe" src = "img/splash_square_6.svg" height = "240" width = "240"> </a>

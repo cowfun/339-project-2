@@ -64,9 +64,11 @@ html{
 	border-bottom: thin solid white;
 	margin: 0 auto;
 	margin-top: 20px;
+
 }
 
 .imgBorder{
+	padding:0;
 	width: 70%;
 	height: auto;
 	border: thin solid white;
@@ -81,17 +83,17 @@ html{
 .imgBorder a:hover .hoverText{
 
 	transition:opacity.5s ease;
-	opacity:1;
+	visibility:visible;
 }
 
 .hoverText{
 
 	color:#fff;
-	opacity:0;
+/*visibility:hidden;*/
 	text-align:center;
-	position:relative;
-	z-index:10;
-	background-color:#fff;
+
+
+
 
 }
 
@@ -104,4 +106,8 @@ html{
 	text-align:center;
 	color:#fff;
 	padding:20px;
+}
+
+#columnItem{
+	margin-bottom:2em;
 }

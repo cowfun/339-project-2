@@ -68,7 +68,7 @@ p {
 	color: black;
 }
 
-.box-item-article-image{
+h4{
 	text-align: center;
 }
 
@@ -148,7 +148,6 @@ p {
 form {
 	display: block;
 	padding: 1em;
-	padding-bottom: 0;
 	font-family: "Futura";
 }
 

@@ -31,7 +31,40 @@
 }
 
 .backgroundBox{
-	background-color: #FFFFFF;
-	margin-top: 10px;
+	background-color: #222222;
 	padding: 0;
+}
+
+.box-item-article-text{
+	display: block;
+	height: 50px;
+	margin: 0 auto;
+}
+
+.box-item-article-image{
+	text-align: center;
+	margin-top: 20px;
+	padding: 0;
+}
+
+.categoryNames{
+	width: 240px;
+	padding-top: 10px;
+	margin: 0 auto;
+	color: white;
+}
+
+.borderPatrol{
+	width: 320px;
+	border-bottom: thin solid white;
+	margin: 0 auto;
+	margin-top: 20px;
+}
+
+.imgBorder{
+	width: 240px;
+	height: 240px;
+	border: thin solid white;
+	margin: 0 auto;
+	margin-top: 20px;
 }

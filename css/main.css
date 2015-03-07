@@ -309,18 +309,24 @@ a.greybutton:hover, a.greybutton:active{
 }
 
 .footer{
-
+	border-top:1px solid #404041;
 	width: 100%;
 	padding: 10px;
-	background-color: #404041;
+	background-color: #000;
 	height: 10%;
 	display: inline-block;
-	color: #fff;
+	color: #404041;
 }
 
-.footer img{
-
+.footer .grid_3{
+	border-right:1px solid #404041;
 }
+
+.footer .grid_3 .grid_2{
+	text-align:center;
+}
+
+
 
 nav .box-item-nav ul {
 	display: none;

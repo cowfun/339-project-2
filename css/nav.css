@@ -12,7 +12,7 @@
 	nav a, nav a:visited {
 	width: 100%;
 	display: inline-block;
-	background-color: blue;
+	background-color: #222222;
 	color: #FFFFFF;
 	padding: 1em 1.25em;
 	text-decoration: none;
@@ -21,7 +21,7 @@
 }
 
 	nav .navitems a:hover{
-		background: #4b545f;
+		background-color: #4b545f;
 				background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
 				background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
 				background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
@@ -30,13 +30,19 @@
 		position: relative;
 		display: inline-table;
 	}
+
+	nav a:hover, nav a:active, nav a:focus {
+	background-color: #A7A9AB;
+	color: white;
+}
+
 	nav .navitems a:hover > ul {
 			/*visibility:visible;*/
 			display:block;
 	}
 
 	nav .navButtons{
-		background-color: red;
+		background-color: #222222;
 		width: 100%;
 		margin: 0;
 		text-align: center;
@@ -74,10 +80,6 @@
 		text-decoration: none;
 		color: #fff;
 	}
-
-
-
-
 
 	@media screen and (max-width: 768px) {
 		#menu {

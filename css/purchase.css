@@ -1,3 +1,10 @@
+.header{
+  background-color:#222;
+}
+
+body{
+  background-color:#000;
+}
 input{
 
   padding:20px;
@@ -13,4 +20,9 @@ form .grid_4{
 
 form .grid_6{
   height:80px;
+}
+
+#subButton{
+  border:1px solid #333;
+  padding:10px;
 }

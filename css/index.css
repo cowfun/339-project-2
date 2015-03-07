@@ -10,7 +10,7 @@ html{
 
 .backgroundbox{
 
-	background: url(../img/Splash_img_1.svg);
+	background: url(../img/splash_img.jpg);
 
 	background-repeat: no-repeat;
 	background-position:center;
@@ -41,6 +41,10 @@ html{
 
 .categoryNames{
 	margin-top: 3px;
+	width: 240px;
+	padding-top: 10px;
+	margin: 0 auto;
+	color: black;
 }
 
 
@@ -64,13 +68,6 @@ html{
 	text-align: center;
 	margin-top: 20px;
 	padding: 0;
-}
-
-.categoryNames{
-	width: 240px;
-	padding-top: 10px;
-	margin: 0 auto;
-	color: white;
 }
 
 .borderPatrol{
@@ -102,19 +99,23 @@ html{
 
 .hoverText{
 
-	color:#fff;
+	color: black;
 /*visibility:hidden;*/
 	text-align:center;
 }
 
 /*modification after adding grid*/
 .eventBox{
-	background-color:#222222;
+	background-color: #A7A9AB;
+}
+
+.grid_12{
+	background-color: #FFFFFF;
 }
 
 #sectionTitle{
 	text-align:center;
-	color:#fff;
+	color: black;
 	padding:20px;
 }
 

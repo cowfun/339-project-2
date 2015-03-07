@@ -1,21 +1,4 @@
 /* ONE TWO Three*/
-
-html, body{
-	margin: 0;
-	padding: 0;
-}
-
-nav a, nav a:visited {
-	width: 100%;
-	display: inline-block;
-	background-color: #222222;
-	color: #FFFFFF;
-	padding: 1em 1.25em;
-	text-decoration: none;
-	-webkit-transition: background-color 0.5s;
-	transition: background-color 0.5s;
-}
-
 @font-face {
 	font-family: "Futura";
 	font-weight: normal;
@@ -35,6 +18,38 @@ nav a, nav a:visited {
 	font-weight: normal;
 	font-style: normal;
 	src: url('fonts/space age.ttf') format('truetype');
+}
+
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+*, *::after, *::before{
+	font-family: "Futura";
+	font-weight: "10px";
+}
+
+h1{
+	display: inline-block;
+	font-family: "Logo";
+	padding-left: 10px;
+}
+
+h2{
+	font-weight: "12px";
+}
+
+nav a, nav a:visited {
+	font-family: "Future";
+	width: 100%;
+	display: inline-block;
+	background-color: #222222;
+	color: #FFFFFF;
+	padding: 1em 1.25em;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
 }
 
 figcaption{

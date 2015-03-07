@@ -320,10 +320,14 @@ a.greybutton:hover, a.greybutton:active{
 
 .footer .grid_3{
 	border-right:1px solid #404041;
+	padding:20px;
 }
 
 .footer .grid_3 .grid_2{
 	text-align:center;
+}
+.footer p{
+	color: #404041;
 }
 
 

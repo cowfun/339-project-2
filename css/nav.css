@@ -4,12 +4,21 @@
 		padding: 0;
 	}
 
-
-
 	nav .navitems ul {
 	/*	visibility:hidden;*/
 	display:none;
 	}
+
+	nav a, nav a:visited {
+	width: 100%;
+	display: inline-block;
+	background-color: blue;
+	color: #FFFFFF;
+	padding: 1em 1.25em;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
 
 	nav .navitems a:hover{
 		background: #4b545f;
@@ -24,6 +33,13 @@
 	nav .navitems a:hover > ul {
 			/*visibility:visible;*/
 			display:block;
+	}
+
+	nav .navButtons{
+		background-color: red;
+		width: 70%;
+		margin: 0;
+		text-align: center;
 	}
 
 

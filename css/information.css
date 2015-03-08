@@ -8,9 +8,7 @@ body{
 	color:#333;
 }
 
-#topheader{
-	background-color:#222;
-}
+
 a{
 	margin:0;
 	padding:0;
@@ -94,7 +92,9 @@ p{
 	text-align:center;
 	margin-left:auto;
 	margin-right:auto;
+
 }
+
 
 .overlaytext{
 	z-index:2;

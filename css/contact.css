@@ -3,9 +3,12 @@ html{
 	color:#fff;
 }
 .aboutContent{
-	border-right: 1px solid #fff;
+
 }
 
+form{
+	border-left:1px solid #fff;
+}
 .aboutContent h3{
 	padding:10px 0;
 }

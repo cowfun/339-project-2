@@ -6,6 +6,10 @@ html{
 .homepage_image{
 
 }
+a {
+	margin:0;
+	padding:0;
+}
 
 
 .backgroundbox{
@@ -136,6 +140,7 @@ html{
 
 .event1{
 	background-size:240px;
+	height:90%;
 	overflow:hidden;
 	position:relative;
 

@@ -136,6 +136,7 @@ margin-bottom:1em;
 #pricing{
 	display:none;
 	margin-top:2em;
+	background-color:#21272b;
 }
 
 form{
@@ -196,7 +197,7 @@ input{
 }
 
 .rating > input:checked ~ label {
-    color: #f70;
+    color: #21272b;
 
 }
 
@@ -211,7 +212,7 @@ input{
 .rating > input:checked ~ label:hover,
 .rating > input:checked ~ label:hover ~ label,
 .rating > label:hover ~ input:checked ~ label {
-    color: #ea0;
+    color: #21272b;
 
 }
 

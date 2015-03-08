@@ -2,6 +2,7 @@
 	* {
 		margin: 0;
 		padding: 0;
+
 	}
 
 	nav .navitems ul {
@@ -14,10 +15,11 @@
 	display: inline-block;
 	background-color: #222222;
 	color: #FFFFFF;
-	padding: 1em 1.25em;
+	padding: 1em 0;
 	text-decoration: none;
 	-webkit-transition: background-color 0.5s;
 	transition: background-color 0.5s;
+
 }
 
 	nav .navitems a:hover{
@@ -25,7 +27,7 @@
 				background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
 				background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
 				background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
-
+		
 		list-style: none;
 		position: relative;
 		display: inline-table;

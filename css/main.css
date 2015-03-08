@@ -25,11 +25,6 @@ html, body{
 	padding: 0;
 }
 
-*, *::after, *::before{
-	font-family: "Futura";
-	font-weight: "10px";
-}
-
 h1{
 	display: inline-block;
 	font-family: "Logo";

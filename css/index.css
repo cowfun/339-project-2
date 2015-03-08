@@ -38,12 +38,16 @@ html{
 	opacity: 0.5;
 	color: black;
 	border: thin solid white;
-	border-radius: 15px;
+	border-radius: 5px;
 	text-align: center;
 	padding: 10px;
 	position: absolute;
-	left:45%;
-	width:10%;
+	left:40%;
+	width:20%;
+}
+
+.purchaseButton:hover{
+	opacity: 0.85;
 }
 
 .categoryNames{
@@ -89,7 +93,7 @@ html{
 	padding:0;
 	width: 70%;
 	height: auto;
-	box-shadow: 5px 5px 5px #888888;
+	box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.5);
 	margin: 0 auto;
 	margin-top: 20px;
 }
@@ -135,7 +139,7 @@ html{
 }
 
 .event1{
-	background-size:240px;
+	background-size:cover;
 	overflow:hidden;
 	position:relative;
 
@@ -146,7 +150,7 @@ html{
 	top:0;
 	left:0;
   	background: #000;
-	background-size: 240px;
+	background-size: cover;
   	opacity: 0;
 	height: auto;
 

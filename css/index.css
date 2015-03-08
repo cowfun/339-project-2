@@ -146,18 +146,21 @@ html{
 	top:0;
 	left:0;
   background: #000;
+	background-size:cover;
   opacity: 0;
+	height:auto;
 
 }
 
 .event1:hover .imgtext{
 	opacity: 0.8;
-  text-align: justify;
+  text-align: center;
   color: #fff;
+	vertical-align:middle;
   font-size: 18px;
-  padding: 100px;
+	width:100%;
   font-weight: 700;
-	height: auto;
+	height: 100%;
 
 }
 .imgblock{

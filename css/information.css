@@ -1,8 +1,20 @@
 html{
-	background-color:#7D7E7D;
+
 	color:#fff;
 }
 
+body{
+	background-color:#fff;
+	color:#333;
+}
+
+#topheader{
+	background-color:#222;
+}
+a{
+	margin:0;
+	padding:0;
+}
 .pgContent{
 	/*position: absolute;*/
 	margin-top: auto;
@@ -59,11 +71,11 @@ html{
 .textinfo{
 	padding:2em;
 	color:#fff;
-	border-right: 1px solid #fff;
+	border-right: 1px solid #333;
 }
 
 p{
- color:#fff;
+ color:#333;
 }
 /*.footer{
 

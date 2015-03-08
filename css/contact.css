@@ -2,26 +2,31 @@ html{
 	background-color:#7D7E7D;
 	color:#fff;
 }
+.aboutContent{
+	border-right: 1px solid #fff;
+}
+
+.aboutContent h3{
+	padding:10px 0;
+}
+
+.aboutContent p{
+	padding:2em;
+}
 
 
 
 input{
-  height:30px;
-  padding:20px;
-width:90%;
+
+padding:1em;
+width:80%;
  border: none;
  border-bottom: solid 2px #c9c9c9;
  transition: border 0.3s;
 }
-.pgContent{
-	margin-right:auto;
-	margin-left:auto;
-	width:80%;
-}
+
 
 .contactform{
-	width:80%;
-	margin-left:auto;
-	margin-right:auto;
+
 
 }

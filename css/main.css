@@ -40,17 +40,7 @@ h2{
 	font-weight: "12px";
 }
 
-nav a, nav a:visited {
-	font-family: "Futura";
-	width: 100%;
-	display: inline-block;
-	background-color: #222222;
-	color: #FFFFFF;
-	padding: 1em 1.25em;
-	text-decoration: none;
-	-webkit-transition: background-color 0.5s;
-	transition: background-color 0.5s;
-}
+
 
 figcaption{
 	position: absolute;
@@ -69,9 +59,7 @@ a{
 	color: white;
 }
 
-nav a:active, a:hover {
-	background-color: #A7A9AB;
-}
+
 
 img {
 	height: auto;

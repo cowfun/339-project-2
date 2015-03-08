@@ -14,14 +14,31 @@
 	<link rel = "stylesheet" href = "css/nav.css">
 		<link rel = "stylesheet" href = "css/contact.css">
 
+		<style>
+		#map-canvas {
+			width: 100%;
+			height: 400px;
+		}
+	</style>
+	<script src="https://maps.googleapis.com/maps/api/js"></script>
+	<script>
+      function initialize() {
+        var mapCanvas = document.getElementById('map-canvas');
+        var mapOptions = {
+          center: new google.maps.LatLng(44.5403, -78.5463),
+          zoom: 8,
+          mapTypeId: google.maps.MapTypeId.ROADMAP
+        }
+        var map = new google.maps.Map(mapCanvas, mapOptions)
+      }
+      google.maps.event.addDomListener(window, 'load', initialize);
+    </script>
+
 
 	</head>
 
 	<body>
-
-		<h1> PROJECT HALO </h1>
-		<div class = "placeholderBox">
-		</div>
+		<a href = "index.html"> <img alt = "Header Logo for Project Halo" src = "img/project-halo-header.jpg" height = "auto" width = "100%"> </a>
 
 		<!-- Navigational Bar -->
 		<nav class = "grid-18 navContainer">
@@ -43,27 +60,35 @@
 				</div>
 
 				<div class = "grid-6 navitems right">
-					<a href = "contact.html"> CONTACT US </a>
+					<a href = "contact.html"> ABOUT US </a>
 				</div>
 
 		</nav>
+		<div class="grid_12">
+		<div class="grid_6">
+			<div class="aboutContent">
+			<h3>Company History</h3>
+			<p>Here at Project Halo, we envision a world in which the human race can travel anywhere their mind wants them too. And that is why we have developed the most powerful rockets in order to bring us to those places where we dream to go as kids. At Project Halo, we bring together the top scientist along with the most innovative engineers in order to create an experience that cannot be duplicated.</p>
+		</div>
+	</div>
+		<div class="grid_6 omega">
+			<div class="aboutContent">
+		<h3>We would love hearing from you.</h3>
 
-		<div class="pgContent grid_10">
-		<h3>We would love hearing from you.</h3
 
 				<form class="contactform">
-						<span class="formname grid_2">First Name:</span>
-						<span class="grid_10 omega"><input type="text" name="username" value=""/></span>
+						<span class="formname grid_12">First Name:</span>
+						<span class="grid_12"><input type="text" name="username" value=""/></span>
 							<br />
-						<span class="formname grid_2">Country:</span>
-						<span class="grid_10 omega"><input type="text" name="country" value=""/></span>
+						<span class="formname grid_12">Country:</span>
+						<span class="grid_12 "><input type="text" name="country" value=""/></span>
 							<br />
 
-						<span class="formname grid_2">Email:</span>
-						<span class="grid_10 omega"><input type="text" name="email" value=""/></span>
+						<span class="formname grid_12">Email:</span>
+						<span class="grid_12"><input type="text" name="email" value=""/></span>
 							<br />
-						<span class="formname grid_2">Note:</span>
-						<span class="grid_10 omega"><input type="text" name="note" value=""/></span>
+						<span class="formname grid_12">Note:</span>
+						<span class="grid_12"><input type="text" name="note" value=""/></span>
 							<br />
 
 						<br />
@@ -71,7 +96,36 @@
 						<input type="submit" name="submit" value="Submit"/>
 					</form>
 
+				</div>
+		</div>
 
+	</div>
+		<div class="grid-18">
+			<div id="map-canvas"></div>
+		</div>
+
+		<div class="footer">
+			<div class="grid_3">
+				<div class="grid_12">
+					<p>1234 Street, City</p>
+					<p>1234 Street, City</p>
+				</div>
+						<div class="grid_2">
+						<img src="img/fb.png" width="100%">
+					</div>
+					<div class="grid_2">
+						<img src="img/twitter.png" width="100%">
+					</div>
+					<div class="grid_2">
+						<img src="img/google.png" width="100%">
+					</div>
+
+			</div>
+			<div class="grid_3">
+				<p>1234 Street, City</p>
+				<p>1234 Street, City</p>
+			</div>
+			<div class="grid_6 omega"></div>
 		</div>
 
 

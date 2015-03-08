@@ -3,8 +3,16 @@ html{
 	color:#fff;
 }
 
+
+
+h3{
+	margin:0;
+	padding:10px 0;
+}
+
 p{
 	color:#fff;
+	line-height:20px;
 }
 
 nav .box-item-nav ul {

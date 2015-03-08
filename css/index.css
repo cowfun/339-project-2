@@ -89,7 +89,7 @@ html{
 	padding:0;
 	width: 70%;
 	height: auto;
-	border: thin solid white;
+	box-shadow: 5px 5px 5px #888888;
 	margin: 0 auto;
 	margin-top: 20px;
 }
@@ -135,7 +135,7 @@ html{
 }
 
 .event1{
-	background-size:cover;
+	background-size:240px;
 	overflow:hidden;
 	position:relative;
 
@@ -146,9 +146,9 @@ html{
 	top:0;
 	left:0;
   	background: #000;
-	background-size:cover;
+	background-size: 240px;
   	opacity: 0;
-	height:auto;
+	height: auto;
 
 }
 

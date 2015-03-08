@@ -24,7 +24,7 @@ a{
 .contentImg{
 	display: inline-block;
 	/*background-color: #ccc;*/
-	height: 40em;
+	/*height: 40em;*/
 
 }
 
@@ -103,4 +103,120 @@ p{
 
 .news{
 	padding:2em;
+}
+.droplink{
+text-align:center;
+background-color:#eee;
+padding:2em 0;
+margin-bottom:1em;
+
+}
+
+.droplink a{
+	color:#000;
+}
+
+.droplink a:hover{
+	color:#aaa;
+	background-color:#333;
+}
+#review{
+	display:none;
+	text-align:left;
+	padding:10px;
+}
+#review h4{
+	text-align:left;
+}
+.reviewside{
+	background-color:#21272b;
+	height:20%;
+	text-align:center;
+}
+#pricing{
+	display:none;
+	margin-top:2em;
+}
+
+form{
+	border-top:1px solid #000;
+}
+input{
+	padding:0.5em;
+	width:80%;
+}
+
+
+.formname{
+	margin-top:1em;
+}
+.rating {
+    float:left;
+}
+
+.submit{
+	margin-top:1em;
+}
+.submit a{
+	border:1px solid #000;
+	padding:0.5em;
+	background-color:#aaa;
+	width:10%;
+	text-align:left;
+}
+.submit a:hover{
+	background-color:#aaa;
+
+	color:#fff;
+}
+/* :not(:checked) is a filter, so that browsers that don’t support :checked don’t
+   follow these rules. Every browser that supports :checked also supports :not(), so
+   it doesn’t make the test unnecessarily selective */
+.rating:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    clip:rect(0,0,0,0);
+}
+
+.rating:not(:checked) > label {
+    float:right;
+    width:1em;
+    padding:0 .1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:200%;
+    line-height:1.2;
+    color:#ddd;
+
+}
+
+.rating:not(:checked) > label:before {
+    content: '★ ';
+}
+
+.rating > input:checked ~ label {
+    color: #f70;
+
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: gold;
+
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #ea0;
+
+}
+
+.rating > label:active {
+    position:relative;
+    top:2px;
+    left:2px;
 }

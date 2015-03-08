@@ -1,5 +1,5 @@
 html{
-	background-color:#7D7E7D;
+	background-color:#eee;
 	color:#fff;
 }
 .aboutContent{
@@ -11,6 +11,7 @@ form{
 }
 .aboutContent h3{
 	padding:10px 0;
+	color:#333;
 }
 
 .aboutContent p{
@@ -29,7 +30,6 @@ width:80%;
 }
 
 
-.contactform{
-
-
+.formname{
+	color:#333;
 }

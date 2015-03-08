@@ -15,24 +15,6 @@ p{
 	line-height:20px;
 }
 
-nav .box-item-nav ul {
-	visibility:hidden;
-}
-
-nav .box-item-nav a:hover{
-	background: #4b545f;
-	background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
-	background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
-	background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
-
-	list-style: none;
-	position: relative;
-	display: inline-table;
-}
-	nav .box-item-nav a:hover > ul {
-		visibility:visible;
-
-	}
 
 .heading{
 	background-color: #000;
@@ -57,33 +39,33 @@ nav .box-item-nav a:hover{
 }
 
 .f1{
-	background: url(../img/flight1.svg) no-repeat;
+	background: url(../img/flights_mars_img.jpg) no-repeat;
 
 
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
-background-size: cover;
+background-size: contain;
 }
 
 .f2{
-	background: url(../img/flight2.svg) no-repeat;
+	background: url(../img/flights_iss_img.jpg) no-repeat;
 
 
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
-background-size: cover;
+background-size: contain;
 }
 
 .f3{
-	background: url(../img/flight3.svg) no-repeat;
+	background: url(../img/flights_mun_img.jpg) no-repeat;
 
 
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
-background-size: cover;
+background-size: contain;
 }
 
 .flightTitle h2{
@@ -107,11 +89,12 @@ background-size: cover;
   -webkit-transition: background-color 0.5s ease-out;
   transition: background-color 0.5s ease-out;
 	opacity:0.6;
-	background-color:#000;
+	background-color:transparent;
+
 }
 
 .flightButton a:hover{
-	background-color:transparent;
+	background-color:#000;
 }
 
 .pButton a{

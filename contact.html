@@ -40,25 +40,25 @@
 	<body>
 
 		<div id="topheader">
-		<a href = "index.html"> <img alt = "Header Logo for Project Halo" src = "img/project-halo-header.jpg" height = "auto" width = "100%"> </a>
+		<a href = "index.html"> <img alt = "Header Logo for Project Halo" src = "img/project-halo-header.jpg" height = "auto" width = "100%" id="halologo"> </a>
 
 		<!-- Navigational Bar -->
-		<nav class = "grid-18 navContainer">
+		<div class="mobilenav">
+		<nav class = "grid-18 navContainer" id="nav">
+
+			<div class = "grid-6 navitems" id="homeNav">
+				<a href = "index.html"> HOME </a>
+
+			</div>
 
 				<div class = "grid-6 navitems left">
 					<a href = "flights.html"> FLIGHTS </a>
-					<ul>
-							<li><a href="">SubNav Test1</a><li>
-							<li><a href="">Test2</a><li>
-					</ul>
+
 				</div>
 
 				<div class = "grid-6 navitems inner">
 					<a href = "information.html"> INFORMATION </a>
-					<ul>
-							<li><a href="">Test1</a><li>
-							<li><a href="">Test2</a><li>
-					</ul>
+
 				</div>
 
 				<div class = "grid-6 navitems right">
@@ -67,6 +67,7 @@
 
 
 		</nav>
+	</div>
 	</div>
 		<div class="grid_12">
 		<div class="grid_6">
@@ -132,7 +133,18 @@
 			<div class="grid_6 omega"></div>
 		</div>
 
-
+		<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+					<script type="text/javascript">
+						$("#nav").addClass("js").before('<div id="menu">Menu</div>');
+						$("#menu").click(function(){
+							$("#nav").toggle();
+						});
+						$(window).resize(function(){
+							if(window.innerWidth > 1224) {
+								$("#nav").removeAttr("style");
+							}
+						});
+					</script>
 	</body>
 
 </html>

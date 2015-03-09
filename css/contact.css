@@ -18,7 +18,9 @@ form{
 	padding:2em;
 }
 
-
+#homeNav{
+	display:none;
+}
 
 input{
 
@@ -62,6 +64,9 @@ width:80%;
 
 	.footer .grid_2{
 		width:5%;
+	}
+	#homeNav{
+		display:block;
 	}
 
 }

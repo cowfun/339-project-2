@@ -20,6 +20,9 @@ form .grid_6{
   height:80px;
 }
 
+fieldset.rating{
+  border:0;
+}
 #subButton{
 
   padding:10px;

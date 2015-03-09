@@ -114,6 +114,31 @@ background-size: contain;
 	color:#333;
 }
 
+.classSelection img{
+
+}
+
+.imgcontainer{
+	position:relative;
+}
+
+.imgcontainer img{
+	opacity:0.5;
+}
+.imgtext{
+	position: absolute;
+   top: 45%;
+   left: 0;
+   text-align: center;
+   width: 100%;
+
+
+}
+.imgtext h4{
+	color:#fff;
+	font-size:1.5em;
+}
+
 #review{
 
 	text-align:left;
@@ -146,6 +171,23 @@ background-size: contain;
 
 .step a:hover{
   opacity:0.5;
+}
+
+.droplink{
+text-align:center;
+background-color:#eee;
+padding:2em 0;
+margin-bottom:1em;
+
+}
+
+.droplink a{
+	color:#000;
+}
+
+.droplink a:hover{
+	color:#aaa;
+	background-color:#333;
 }
 
 input{

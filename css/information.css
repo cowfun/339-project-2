@@ -104,6 +104,18 @@ p{
 .news{
 	padding:2em;
 }
+.relatedlink{
+text-align:center;
+padding:1em 0;
+color:#333;
+}
+
+.relatedlink a{
+	color:#333;
+}
+.relatedlink a:hover{
+	color:#eee;
+}
 .droplink{
 text-align:center;
 background-color:#eee;
@@ -182,7 +194,7 @@ input{
 .dropTitle{
 	color:#aaa;
 	font-size:2em;
-	
+
 }
 /* STAR RATING CSS STARTS */
 .rating:not(:checked) > input {

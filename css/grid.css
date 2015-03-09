@@ -116,7 +116,7 @@
 
 }
 
-@media screen and (max-width: 1000px){
+@media screen and (max-width: 1000px) and (min-width: 480px){
 	.event1 .imgtext{
 		font-size: 8px;
 }

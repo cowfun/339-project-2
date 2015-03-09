@@ -78,14 +78,6 @@ width:80%;
     display:none;
     height:0;
   }
-}
-/* Mobile */
-@media screen and (min-width: 480px) {
-.contentImg{
-    display:none;
-    height:0;
-  }
-
 	.grid_6{
 		width:100%;
 	}

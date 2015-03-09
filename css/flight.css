@@ -188,6 +188,7 @@ margin-bottom:1em;
 
 }
 
+
 .droplink a{
 	color:#000;
 }
@@ -298,6 +299,13 @@ fieldset.rating{
 	}
 	.reviewside{
 		display:none;
+	}
+	.flightimgDiv{
+		display:none;
+	}
+	.imgcontainer img{
+		width:60%;
+		padding:20%;
 	}
 }
 

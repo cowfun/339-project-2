@@ -32,6 +32,10 @@ a{
 
 }
 
+#homeNav{
+	display:none;
+}
+
 .relatedImg{
 	width:100%;
 	padding-left:5%;
@@ -280,6 +284,9 @@ input{
 	.grid_11,
 	.grid_12 {
 		width:100%;
+	}
+	#homeNav{
+		display:block;
 	}
 
 }

@@ -89,6 +89,7 @@ nav a:hover, nav a:active, nav a:focus {
 			color: #fff;
 			font-size:1em;
 			text-align: center;
+			padding:1em;
 		}
 		#nav.js {
 			display: none;
@@ -99,6 +100,12 @@ nav a:hover, nav a:active, nav a:focus {
 		.mobilenav li {
 			width:100%;
 			border-right:none;
+		}
+		#halologo{
+			display:none;
+		}
+		#nav .grid-6{
+			width:100%;
 		}
 	}
 

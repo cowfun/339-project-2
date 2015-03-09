@@ -22,10 +22,11 @@
 	<body>
 
 		<div id="topheader">
-		<a href = "index.html"> <img alt = "Header Logo for Project Halo" src = "img/project-halo-header.jpg" height = "auto" width = "100%"> </a>
+		<a href = "index.html"> <img alt = "Header Logo for Project Halo" src = "img/project-halo-header.jpg" height = "auto" width = "100%" id="halologo"> </a>
 
 		<!-- Navigational Bar -->
-		<nav class = "grid-18 navContainer">
+		<div class="mobilenav">
+		<nav class = "grid-18 navContainer" id="nav">
 
 				<div class = "grid-6 navitems left">
 					<a href = "flights.html"> FLIGHTS </a>
@@ -44,9 +45,10 @@
 
 		</nav>
 	</div>
+	</div>
 		</div>
 
-		<div class="grid_12">
+		<div class="grid_12 topper">
 		<div class="grid_3">
 			<div class="news">
 			<h2>PROJECT HALO NEWS</h2>
@@ -55,7 +57,7 @@
 
 
 
-						<span class="grid_12"><input type="text" name="note" value="Enter Your Email"/></span>
+						<span class="grid_12"><input type="text" name="note" placeholder="Enter Your Email"/></span>
 
 
 
@@ -81,7 +83,7 @@
 						The H-12 rockets are the most powerful rockets that can currently be created by human hands and materials from Earth. The first prototype, the H-1 rockets were created by scientists Calvin Hui and Irene Wang in the summer of 2018, during the cataclysmic war that occured. The two scientist were looking to create a propelling system that was capable of landing people that were affected by the war to other planets in order to start fresh. The technology behind the H Class rockets came from the theory of firing an object through magnetic forces which allows the object to pick up speed instead of losing speed while it is moving along the air.
 					</p>
 
-					
+
 				</div>
 			<div>
 		</div>
@@ -99,23 +101,36 @@
 			<p>1234 Street, City</p>
 		</div>
 				<div class="grid_2">
-				<img src="img/fb.png" width="40px">
+				<img src="img/fb.png" width="100%">
 			</div>
 			<div class="grid_2">
-				<img src="img/twitter.png" width="40px">
+				<img src="img/twitter.png" width="100%">
 			</div>
 			<div class="grid_2">
-				<img src="img/google.png" width="40px">
+				<img src="img/google.png" width="100%">
 			</div>
 
 	</div>
 	<div class="grid_3">
 		<p>1234 Street, City</p>
 		<p>1234 Street, City</p>
+		<p>1234 Street, City</p>
+		<p>1234 Street, City</p>
 	</div>
 	<div class="grid_6 omega"></div>
 </div>
-
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+			<script type="text/javascript">
+				$("#nav").addClass("js").before('<div id="menu">Menu</div>');
+				$("#menu").click(function(){
+					$("#nav").toggle();
+				});
+				$(window).resize(function(){
+					if(window.innerWidth > 1224) {
+						$("#nav").removeAttr("style");
+					}
+				});
+			</script>
 	</body>
 
 </html>

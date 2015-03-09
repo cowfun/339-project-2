@@ -367,9 +367,12 @@ nav .box-item-nav a:hover{
 	}
 
 
-	/* Tablet */
-@media screen and (max-width: 1024px) {
-}
+		/* Tablet */
+	@media screen and (max-width: 1024px) {
+	}
+
+
+
 
 	/* Mobile */
 	@media screen and (max-width: 480px) {

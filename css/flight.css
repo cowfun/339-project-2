@@ -252,3 +252,45 @@ fieldset.rating{
     top:2px;
     left:2px;
 }
+/* Tablet */
+@media screen and (max-width: 1024px) {
+}
+
+@media screen and (max-width : 700px) {
+
+  .grid_1, .grid-1,
+  .grid_2,  .grid-2,
+  .grid_3, .grid-3,
+  .grid_4, .grid-4,
+  .grid_5, .grid-5,
+  .grid_6, .grid-6,
+  .grid_7, .grid-7,
+  .grid_8,  .grid-8,
+  .grid_9,  .grid-9,
+  .grid_10, .grid-10,
+  .grid_11, .grid-11,
+  .grid-12,
+  .grid-12 {
+    width:100%;
+  }
+  .contentImg{
+    display:none;
+    height:0;
+  }
+	fieldset.rating{
+		width:50%;
+	}
+	.footer .grid_2, .footer .grid-2{
+		width: 15%;
+	}
+}
+
+
+/* Mobile */
+@media screen and (max-width: 480px) {
+.contentImg{
+    display:none;
+    height:0;
+  }
+
+}

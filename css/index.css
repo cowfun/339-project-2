@@ -24,14 +24,14 @@ a {
 	background-size: cover;
 
 	width:100%;
-	height:700px;
+	height:auto;
 	overflow: scroll
 }
 
 .shitontop{
 	display: block;
 	width: 100%;
-	height: 500px;
+	height: 600px;
 }
 
 .purchaseButton{
@@ -48,6 +48,7 @@ a {
 	position: absolute;
 	left:40%;
 	width:20%;
+	top: 100%;
 }
 
 .purchaseButton:hover{

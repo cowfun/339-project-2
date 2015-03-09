@@ -133,7 +133,6 @@ margin-bottom:1em;
 	background-color:#333;
 }
 #review{
-	display:none;
 	text-align:left;
 	padding:10px;
 }
@@ -146,7 +145,6 @@ margin-bottom:1em;
 	text-align:center;
 }
 #pricing{
-	display:none;
 	margin-top:2em;
 }
 

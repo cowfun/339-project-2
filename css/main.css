@@ -35,6 +35,10 @@ h2{
 	font-weight: "12px";
 }
 
+h3{
+	text-align: center;
+}
+
 h4{
 	font-family: "Futura-Medium";
 }
@@ -367,9 +371,12 @@ nav .box-item-nav a:hover{
 	}
 
 
-	/* Tablet */
-@media screen and (max-width: 1024px) {
-}
+		/* Tablet */
+	@media screen and (max-width: 1024px) {
+	}
+
+
+
 
 	/* Mobile */
 	@media screen and (max-width: 480px) {

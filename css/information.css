@@ -21,11 +21,19 @@ a{
 	/*background-color: #fff;*/
 }
 
+.subheadInfo{
+	margin-top: 40px;
+}
+
 .contentImg{
 	display: inline-block;
 	/*background-color: #ccc;*/
 	/*height: 40em;*/
 
+}
+
+#homeNav{
+	display:none;
 }
 
 .relatedImg{
@@ -36,9 +44,12 @@ a{
 	margin-right:auto;
 }
 
-.flightTitle h2{
+.flightTitle h3{
 	text-align: center;
+}
 
+.flightTitle{
+	margin-top: 40px;
 }
 
 .flightButton a{
@@ -70,6 +81,10 @@ a{
 	padding:2em;
 	color:#fff;
 	border-right: 1px solid #333;
+}
+
+fieldset{
+	border: 0;
 }
 
 p{
@@ -133,7 +148,6 @@ margin-bottom:1em;
 	background-color:#333;
 }
 #review{
-	display:none;
 	text-align:left;
 	padding:10px;
 }
@@ -146,8 +160,12 @@ margin-bottom:1em;
 	text-align:center;
 }
 #pricing{
-	display:none;
 	margin-top:2em;
+}
+
+.reviews{
+	display: block;
+	margin-top: 100px;
 }
 
 form{
@@ -246,6 +264,12 @@ input{
     left:2px;
 }
 
+.infoText{
+
+	margin-top: 20px;
+
+}
+
 
 @media screen and (max-width : 700px) {
 
@@ -261,5 +285,9 @@ input{
 	.grid_12 {
 		width:100%;
 	}
+	#homeNav{
+		display:block;
+	}
+	
 
 }

@@ -68,14 +68,13 @@
 .clear{clear:both;display:block;overflow:hidden;visibility:hidden;width:0;height:0}.clearfix:after{clear:both;content:' ';display:block;font-size:0;line-height:0;visibility:hidden;width:0;height:0}* html .clearfix,*:first-child+html .clearfix{zoom:1}
 
 
-
-
 /* Mobile */
 @media screen and (max-width : 480px) {
 
 .event1 .imgtext{
 
 	opacity: 0.5;
+	font-size: 15;
 }
 .imgtext{
 
@@ -115,6 +114,21 @@
 	width:100%;
 }
 
+}
 
+@media screen and (max-width: 1000px) and (min-width: 480px){
+	.event1 .imgtext{
+		font-size: 8px;
+}
 
+@media screen and (max-width : 768px) {
+
+.event1 .imgtext{
+
+	opacity: 0.5;
+	font-size: 15;
+}
+.imgtext{
+
+	height:100%;
 }

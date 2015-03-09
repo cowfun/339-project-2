@@ -29,8 +29,9 @@ fieldset.rating{
 }
 
 .payment{
-  padding:1em;
+  padding-top:1em;
 }
+
 /*process bar style*/
 .step{
   background-color:#333;

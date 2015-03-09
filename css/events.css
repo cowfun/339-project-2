@@ -64,8 +64,17 @@ a{
   transition: background-color 0.5s ease-out;
 
 }
+
+.pgContent{
+	/*position: absolute;*/
+	margin-top: auto;
+	width: 100%;
+	height: 200px;
+	/*background-color: #fff;*/
+}
+
 .imgbox{
-	background-image:url('img/canaveral.jpg');
+	background-image:url('img/event_1_splash.jpg');
 	height:50%;
 	display:block;
 

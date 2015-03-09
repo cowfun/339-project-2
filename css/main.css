@@ -344,6 +344,9 @@ a.greybutton:hover, a.greybutton:active{
 	background-color:#222;
 }
 
+.header{
+  background-color:#222;
+}
 nav .box-item-nav ul {
 	display: none;
 }

@@ -113,3 +113,100 @@ background-size: contain;
 
 	color:#333;
 }
+
+#review{
+
+	text-align:left;
+	padding:10px;
+}
+#review h4{
+	text-align:left;
+	color:#fff;
+}
+.reviewside{
+
+	height:20%;
+	text-align:center;
+}
+
+/*process bar style*/
+.step{
+  background-color:#333;
+  text-align:center;
+  padding:1em 0;
+
+
+}
+.stepCurrent{
+  background-color:#000;
+  text-align:center;
+  padding:1em 0;
+  opacity:0.5;
+}
+
+.step a:hover{
+  opacity:0.5;
+}
+
+input{
+
+  padding:10px;
+width:95%;
+ border: none;
+ border-bottom: solid 2px #c9c9c9;
+ transition: border 0.3s;
+}
+
+/* STAR RATING CSS STARTS */
+
+fieldset.rating{
+	width:33%;
+}
+.rating:not(:checked) > input {
+    position:absolute;
+    top:-9999px;
+    clip:rect(0,0,0,0);
+}
+
+.rating:not(:checked) > label {
+    float:right;
+    width:1em;
+    padding:0 .1em;
+    overflow:hidden;
+    white-space:nowrap;
+    cursor:pointer;
+    font-size:200%;
+    line-height:1.2;
+    color:#ddd;
+
+}
+
+.rating:not(:checked) > label:before {
+    content: '★ ';
+}
+
+.rating > input:checked ~ label {
+    color: #21272b;
+
+}
+
+.rating:not(:checked) > label:hover,
+.rating:not(:checked) > label:hover ~ label {
+    color: gold;
+
+}
+
+.rating > input:checked + label:hover,
+.rating > input:checked + label:hover ~ label,
+.rating > input:checked ~ label:hover,
+.rating > input:checked ~ label:hover ~ label,
+.rating > label:hover ~ input:checked ~ label {
+    color: #21272b;
+
+}
+
+.rating > label:active {
+    position:relative;
+    top:2px;
+    left:2px;
+}

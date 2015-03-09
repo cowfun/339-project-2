@@ -129,17 +129,18 @@ margin-bottom:1em;
 	text-align:left;
 }
 .reviewside{
-	background-color:#21272b;
+
 	height:20%;
 	text-align:center;
 }
 #pricing{
 	display:none;
 	margin-top:2em;
-	background-color:#21272b;
 }
 
 form{
+	padding-top:20px;
+	margin-top:20px;
 	border-top:1px solid #000;
 }
 input{
@@ -169,10 +170,21 @@ input{
 	background-color:#aaa;
 
 	color:#fff;
+
 }
-/* :not(:checked) is a filter, so that browsers that don’t support :checked don’t
-   follow these rules. Every browser that supports :checked also supports :not(), so
-   it doesn’t make the test unnecessarily selective */
+
+.date{
+	color:#aaa;
+	font-size:1em;
+	margin-top:10em;
+	border-bottom:1px
+}
+.dropTitle{
+	color:#aaa;
+	font-size:2em;
+	
+}
+/* STAR RATING CSS STARTS */
 .rating:not(:checked) > input {
     position:absolute;
     top:-9999px;

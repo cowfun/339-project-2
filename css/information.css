@@ -13,6 +13,7 @@ a{
 	margin:0;
 	padding:0;
 }
+
 .pgContent{
 	/*position: absolute;*/
 	margin-top: auto;
@@ -73,8 +74,12 @@ a{
 	background-image:url('img/canaveral.jpg');
 	height:50%;
 	display:block;
+}
 
-
+.imgbox2{
+	background-image:url('img/event_1_splash.jpg');
+	height:50%;
+	display:block;
 }
 
 .textinfo{

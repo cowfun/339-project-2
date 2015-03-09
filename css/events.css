@@ -26,11 +26,13 @@ a{
 
 	background-color: #eee;
 	height: 40em;
-
-
 }
 
-
+.imgbox2{
+	background-image:url('img/event_1_splash.jpg');
+	height:50%;
+	display:block;
+}
 
 .relatedImg{
 	width:100%;

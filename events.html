@@ -7,13 +7,13 @@
 		<meta charset = "utf-8">
 		<title> Project Halo Information </title>
 
-		<link rel = "stylesheet" href = "css/flexgrid.css">
+		<link rel = "stylesheet" href = "css/nav.css">
 		<link rel = "stylesheet" href = "css/main.css">
-		<link rel = "stylesheet" href = "css/template.css">
+
 		<!--<link rel = "stylesheet" href = "css/flexgrid.css">-->
 
 		<link rel = "stylesheet" href = "css/grid.css">
-		<link rel = "stylesheet" href = "css/information.css">
+		<link rel = "stylesheet" href = "css/events.css">
 
 
 
@@ -21,41 +21,59 @@
 
 	<body>
 
-		<h1> PROJECT HALO </h1>
-		<div class = "placeholderBox">
-		</div>
+		<div id="topheader">
+		<a href = "index.html"> <img alt = "Header Logo for Project Halo" src = "img/project-halo-header.jpg" height = "auto" width = "100%" id="halologo"> </a>
 
+		<!-- Navigational Bar -->
+		<div class="mobilenav">
+		<nav class = "grid-18 navContainer" id="nav">
 
-		<!-- Logo -->
-		<div>
-
-
-			<!-- Navigational Bar -->
-			<nav class = "box">
-				<div class = "box-item-nav">
+				<div class = "grid-6 navitems left">
 					<a href = "flights.html"> FLIGHTS </a>
+
 				</div>
 
-					<div class = "box-item-nav">
-						<a href = "information.html"> INFORMATION </a>
-					</div>
-					<div class = "box-item-nav">
-						<a href = "contact.html"> CONTACT US </a>
-					</div>
+				<div class = "grid-6 navitems inner">
+					<a href = "information.html"> INFORMATION </a>
+
+				</div>
+
+				<div class = "grid-6 navitems right">
+					<a href = "contact.html"> ABOUT US </a>
+				</div>
 
 
-
-			</nav>
+		</nav>
+	</div>
+	</div>
 		</div>
 
-		<div class="pgContent imgbox">
+		<div class="grid_12 topper">
+		<div class="grid_3">
+			<div class="news">
+			<h2>PROJECT HALO NEWS</h2>
+			<p>Sign up for email updates</p>
+			<form>
+
+
+
+						<span class="grid_12"><input type="text" name="note" placeholder="Enter Your Email"/></span>
+
+
+
+			</form>
+		</div>
+		</div>
+		<div class="grid_9 omega">
+
+		<div class="pgContent imgboxt">
 			<div class="grid_12">
 			<img src="img/canaveral.jpg">
 			</div>
 		</div>
 
-		<div class="pgContent">
-			<div class="contentImg grid_8 omega">
+		<div class="pgContent ">
+			<div class="contentImg grid_12">
 				<div class="textinfo">
 					<p class = "infoText">
 						Here at Project Halo, we envision a world in which the human race can travel anywhere their mind wants them too. And that is why we have developed the most powerful rockets in order to bring us to those places where we dream to go as kids. At Project Halo, we bring together the top scientist along with the most innovative engineers in order to create an experience that cannot be duplicated.
@@ -65,34 +83,54 @@
 						The H-12 rockets are the most powerful rockets that can currently be created by human hands and materials from Earth. The first prototype, the H-1 rockets were created by scientists Calvin Hui and Irene Wang in the summer of 2018, during the cataclysmic war that occured. The two scientist were looking to create a propelling system that was capable of landing people that were affected by the war to other planets in order to start fresh. The technology behind the H Class rockets came from the theory of firing an object through magnetic forces which allows the object to pick up speed instead of losing speed while it is moving along the air.
 					</p>
 
-					<p class = "infoText">
-						Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat est vitae placerat aliquam. In eu ornare felis. Fusce lorem arcu, scelerisque ac gravida sed, bibendum vel sem. Phasellus id nulla in ante mollis accumsan ac ac libero. Pellentesque ac mauris justo. Fusce at dolor id magna condimentum condimentum ac vel est. Curabitur lacinia eros vitae venenatis facilisis. Nulla facilisi. Etiam accumsan ex est, posuere rutrum nunc convallis et. Integer ultricies est nisi, et lobortis nunc bibendum at.
-					</p>
+
 				</div>
 			<div>
 		</div>
 	</div>
 
-			<div class="contentImg grid_4">
-				<div class="flightTitle">
-					<h2>RELATED INFORMATION</h2>
-				</div>
 
-
-				<div class="grid_12 omega">
-					<img src="img/splash_square_5.svg" class="relatedImg" height = "240" width = "240">
-					<p class="infotext">LOREM IPSUM IPBUM</p>
-				</div>
-
-				<div class="grid_12 omega">
-					<img src="img/splash_square_6.svg" class="relatedImg" height = "240" width = "240">
-					<p class="infotext">LOREM IPSUM IPBUM</p>
-				</div>
-			</div>
 
 		</div>
+	</div>
+</div>
+<div class="footer">
+	<div class="grid_3">
+		<div class="grid_12">
+			<p>1234 Street, City</p>
+			<p>1234 Street, City</p>
+		</div>
+				<div class="grid_2">
+				<img src="img/fb.png" width="100%">
+			</div>
+			<div class="grid_2">
+				<img src="img/twitter.png" width="100%">
+			</div>
+			<div class="grid_2">
+				<img src="img/google.png" width="100%">
+			</div>
 
-
+	</div>
+	<div class="grid_3">
+		<p>1234 Street, City</p>
+		<p>1234 Street, City</p>
+		<p>1234 Street, City</p>
+		<p>1234 Street, City</p>
+	</div>
+	<div class="grid_6 omega"></div>
+</div>
+<script src="http://ajax.googleapis.com/ajax/libs/jquery/1.8.2/jquery.min.js"></script>
+			<script type="text/javascript">
+				$("#nav").addClass("js").before('<div id="menu">Menu</div>');
+				$("#menu").click(function(){
+					$("#nav").toggle();
+				});
+				$(window).resize(function(){
+					if(window.innerWidth > 1224) {
+						$("#nav").removeAttr("style");
+					}
+				});
+			</script>
 	</body>
 
 </html>

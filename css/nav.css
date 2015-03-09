@@ -4,26 +4,48 @@
 		padding: 0;
 	}
 
-
-
 	nav .navitems ul {
 	/*	visibility:hidden;*/
 	display:none;
 	}
 
-	nav .navitems a:hover{
-		background: #4b545f;
-				background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
-				background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
-				background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+	nav a, nav a:visited {
+	width: 100%;
+	display: inline-block;
+	background-color: #222222;
+	color: #FFFFFF;
+	padding: 1em 0;
+	text-decoration: none;
+	-webkit-transition: background-color 0.5s;
+	transition: background-color 0.5s;
+}
 
-		list-style: none;
-		position: relative;
-		display: inline-table;
+nav .navitems a:hover{
+	background-color: #4b545f;
+		background: linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -moz-linear-gradient(top, #4f5964 0%, #5f6975 40%);
+		background: -webkit-linear-gradient(top, #4f5964 0%,#5f6975 40%);
+
+	list-style: none;
+	position: relative;
+	display: inline-table;
 	}
+
+nav a:hover, nav a:active, nav a:focus {
+	background-color: #A7A9AB;
+	color: white;
+}
+
 	nav .navitems a:hover > ul {
 			/*visibility:visible;*/
 			display:block;
+	}
+
+	nav .navButtons{
+		background-color: #222222;
+		width: 100%;
+		margin: 0;
+		text-align: center;
 	}
 
 
@@ -59,10 +81,6 @@
 		color: #fff;
 	}
 
-
-
-
-
 	@media screen and (max-width: 768px) {
 		#menu {
 			width:1.4em;
@@ -71,6 +89,7 @@
 			color: #fff;
 			font-size:1em;
 			text-align: center;
+			padding:1em;
 		}
 		#nav.js {
 			display: none;
@@ -81,6 +100,12 @@
 		.mobilenav li {
 			width:100%;
 			border-right:none;
+		}
+		#halologo{
+			display:none;
+		}
+		#nav .grid-6{
+			width:100%;
 		}
 	}
 

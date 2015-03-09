@@ -1,21 +1,4 @@
 /* ONE TWO Three*/
-
-html, body{
-	margin: 0;
-	padding: 0;
-}
-
-nav a, nav a:visited {
-	width: 100%;
-	display: inline-block;
-	background-color: #222222;
-	color: #FFFFFF;
-	padding: 1em 1.25em;
-	text-decoration: none;
-	-webkit-transition: background-color 0.5s;
-	transition: background-color 0.5s;
-}
-
 @font-face {
 	font-family: "Futura";
 	font-weight: normal;
@@ -37,6 +20,27 @@ nav a, nav a:visited {
 	src: url('fonts/space age.ttf') format('truetype');
 }
 
+html, body{
+	margin: 0;
+	padding: 0;
+}
+
+h1{
+	display: inline-block;
+	font-family: "Logo";
+	padding-left: 10px;
+}
+
+h2{
+	font-weight: "12px";
+}
+
+h4{
+	font-family: "Futura-Medium";
+}
+
+
+
 figcaption{
 	position: absolute;
 	color: white;
@@ -54,9 +58,7 @@ a{
 	color: white;
 }
 
-nav a:active, a:hover {
-	background-color: #A7A9AB;
-}
+
 
 img {
 	height: auto;
@@ -309,19 +311,42 @@ a.greybutton:hover, a.greybutton:active{
 }
 
 .footer{
-
-	width: 100%;
+	clear:left;
+	margin-top:30px;
+	border-top:1px solid #404041;
+	width: 98%;
 	padding: 10px;
-	background-color: #404041;
+	background-color: #000;
 	height: 10%;
 	display: inline-block;
-	color: #fff;
+	color: #404041;
+
+
 }
 
+.footer .grid_3{
+	border-right:1px solid #404041;
+	padding:20px;
+}
+
+.footer .grid_3 .grid_2{
+	text-align:center;
+}
+.footer p{
+	color: #404041;
+}
 .footer img{
-
+	display:inline-block;
+	width:40px;
 }
 
+#topheader{
+	background-color:#222;
+}
+
+.header{
+  background-color:#222;
+}
 nav .box-item-nav ul {
 	display: none;
 }
@@ -339,4 +364,13 @@ nav .box-item-nav a:hover{
 	nav .box-item-nav a:hover > ul {
 		display: block;
 
+	}
+
+
+	/* Tablet */
+@media screen and (max-width: 1024px) {
+}
+
+	/* Mobile */
+	@media screen and (max-width: 480px) {
 	}

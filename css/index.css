@@ -6,13 +6,15 @@ html{
 .homepage_image{
 
 }
+a {
+	margin:0;
+	padding:0;
+}
 
 
 .backgroundbox{
 
-	background: url(../img/Splash_img_1.svg);
-
-
+	background: url(../img/splash_img.jpg);
 
 	background-repeat: no-repeat;
 	background-position:center;
@@ -26,14 +28,44 @@ html{
 	overflow: scroll
 }
 
+.shitontop{
+	display: block;
+	width: 100%;
+	height: 500px;
+}
+
+.purchaseButton{
+	display: inline-block;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: white;
+	opacity: 0.5;
+	color: black;
+	border: thin solid white;
+	border-radius: 5px;
+	text-align: center;
+	padding: 10px;
+	position: absolute;
+	left:40%;
+	width:20%;
+}
+
+.purchaseButton:hover{
+	opacity: 0.85;
+}
+
 .categoryNames{
 	margin-top: 3px;
+	width: 240px;
+	padding-top: 10px;
+	margin: 0 auto;
+	color: black;
 }
 
 
 .eventButton{
-	width: 240px;
-	height: 240px;
+	width: 280px;
+	height: 280px;
 }
 
 .backgroundBox{
@@ -53,13 +85,6 @@ html{
 	padding: 0;
 }
 
-.categoryNames{
-	width: 240px;
-	padding-top: 10px;
-	margin: 0 auto;
-	color: white;
-}
-
 .borderPatrol{
 	width: 320px;
 	border-bottom: thin solid white;
@@ -71,13 +96,13 @@ html{
 .imgBorder{
 	padding:0;
 	width: 70%;
-	height: auto;
-	border: thin solid white;
+	height: 95%;
+	box-shadow: 0px 0px 20px 5px rgba(0,0,0,0.5);
 	margin: 0 auto;
 	margin-top: 20px;
 }
 
-.imgBorder a:hover{
+/*.imgBorder a:hover{
 	opacity:0.5;
 	transition:opacity.8s ease;
 }
@@ -85,32 +110,27 @@ html{
 
 	transition:opacity.5s ease;
 	visibility:visible;
-}
+}*/
 
 .hoverText{
 
-	color:#fff;
+	color: black;
 /*visibility:hidden;*/
 	text-align:center;
-
-
-
-
-}
-
-.imageButton{
-	margin: 0 auto;
-	text-align: center;
 }
 
 /*modification after adding grid*/
-.eventBox{
-	background-color:#222222;
+
+.grid_12{
+	background-color: #d3d3d3;
 }
 
+.footer .grid_12{
+	background-color:#000;
+}
 #sectionTitle{
 	text-align:center;
-	color:#fff;
+	color: black;
 	padding:20px;
 }
 
@@ -118,4 +138,55 @@ html{
 	margin-bottom:2em;
 
 }
->>>>>>> master
+
+
+.event1{
+
+	/*background-size:240px;
+	height:90%;*/
+
+	background-size:cover;
+
+	overflow:hidden;
+	position:relative;
+	margin-bottom:-5px;
+
+}
+
+.imgtext{
+	position:absolute;
+	top:0;
+	left:0;
+  	background: #000;
+	background-size: cover;
+  	opacity: 0;
+	height: 280px;
+
+}
+
+.event1:hover .imgtext{
+	opacity: 0.8;
+  	text-align: center;
+ 	color: #fff;
+	vertical-align:middle;
+	width:100%;
+	height: 100%;
+}
+
+.imgtext p{
+	color: white;
+	margin-top: 5%;
+	margin-left: 5%;
+	margin-right: 5%;
+	line-height: 120%;
+}
+
+.imgtext h4{
+	margin-top: 10%;
+	color: white;
+}
+
+
+.imgblock{
+
+}

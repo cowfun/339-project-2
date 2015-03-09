@@ -1,0 +1,135 @@
+html{
+
+	color:#fff;
+}
+
+body{
+	background-color:#fff;
+	color:#333;
+}
+
+
+a{
+	margin:0;
+	padding:0;
+}
+.pgContent{
+	/*position: absolute;*/
+	margin-top: auto;
+	width: 100%;
+	height: 200px;
+	background-color: #eee;
+}
+
+.contentImg{
+	display: inline-block;
+
+	background-color: #eee;
+	height: 40em;
+
+
+}
+
+
+
+.relatedImg{
+	width:100%;
+	padding-left:5%;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+}
+
+.flightTitle h2{
+	text-align: center;
+
+}
+
+.flightButton a{
+	float: none;
+	width: 100px;
+	display: block;
+  padding: 0.5em 2em;
+  color: #000;
+  border: 1px solid #000;
+ margin-left: auto;
+ margin-right: auto;
+  margin-top: 80%;
+  text-decoration: none;
+  display: inline-block;
+  /*position: relative;*/
+  -webkit-transition: background-color 0.5s ease-out;
+  transition: background-color 0.5s ease-out;
+
+}
+.imgbox{
+	background-image:url('img/canaveral.jpg');
+	height:50%;
+	display:block;
+
+
+}
+
+.textinfo{
+	padding:2em;
+	color:#fff;
+	border-right: 1px solid #333;
+}
+
+p{
+ color:#333;
+}
+/*.footer{
+
+	width: 100%;
+	padding: 10px;
+	background-color: #000;
+	height: 10%;
+	display: inline-block;
+	color: #fff;
+}*/
+
+.infotext{
+	border-top:1px solid #fff;
+	padding-top:10px;
+	width:70%;
+	text-align:center;
+	margin-left:auto;
+	margin-right:auto;
+
+}
+
+
+.overlaytext{
+	z-index:2;
+
+}
+
+.news{
+	padding:2em;
+}
+
+input{
+	padding:1em;
+	width:80%;
+}
+
+
+@media screen and (max-width : 700px) {
+
+	.grid_1,
+	.grid_4,
+	.grid_5,
+	.grid_6,
+	.grid_7,
+	.grid_8,
+	.grid_9,
+	.grid_10,
+	.grid_11,
+	.grid_12 {
+		width:100%;
+	}
+	.topper .grid_3{
+		width:100%;
+	}
+}

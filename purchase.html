@@ -5,124 +5,112 @@
 	<head>
 
 		<meta charset = "utf-8">
+		<meta name="viewport" content="width=device-width, user-scalable=no">
 		<title> Project Halo Flights </title>
 
-		<link rel = "stylesheet" href = "css/template.css">
 		<link rel = "stylesheet" href = "css/nav.css">
 		<link rel = "stylesheet" href = "css/main.css">
 		<link rel = "stylesheet" href = "css/grid.css">
 		<link rel = "stylesheet" href = "css/flight.css">
-    <link rel = "stylesheet" href = "css/purchase.css">
+   	<link rel = "stylesheet" href = "css/purchase.css">
+
 
 
 
 	</head>
 
 	<body>
-
-		<h1> PROJECT HALO </h1>
-		<div class = "placeholderBox">
-		</div>
-
-		<!-- Navigational Bar -->
-		<nav class = "grid-18 navContainer">
-
-				<div class = "grid-6 navitems left">
-					<a href = "flights.html"> FLIGHTS </a>
-					<ul>
-							<li><a href="">SubNav Test1</a><li>
-							<li><a href="">Test2</a><li>
-					</ul>
-				</div>
-
-				<div class = "grid-6 navitems inner">
-					<a href = "information.html"> INFORMATION </a>
-					<ul>
-							<li><a href="">Test1</a><li>
-							<li><a href="">Test2</a><li>
-					</ul>
-				</div>
-
-				<div class = "grid-6 navitems right">
-					<a href = "contact.html"> CONTACT US </a>
-				</div>
-
-		</nav>
+		<div class="header">
+		<a href = "index.html"> <img alt = "Header Logo for Project Halo" src = "img/project-halo-header.jpg" height = "auto" width = "250"> </a>
 
 
+	</div>
+
+	<div class="grid_12">
+
+				<div class="grid-6 step"><a href="flight_iss.html"> 01 flight </a></div>
+				<div class="grid-6 stepCurrent"><a href="#"> 02 payment </a></div>
+				<div class="grid-6 step"><a href="confirm.html"> 03 confirmation </a></div>
+
+	</div>
 
 
 		<div>
-			<div class="grid_4 contentImg">
+			<div class="grid-6 contentImg">
 
-				<div class="flightButton f2">
+
+				<div class="flightButton">
 
 				</div>
-				<div class="flightTitle">
-					<h2>Flight Title</h2>
-				</div>
+			
 			</div>
 
-			<div class="grid_8 omega">
-				<div class="grid_12 omega" style="display:inline-block; height:75%;">
-        <h3 class="allcaps">Payment Information</h3>
+			<div class="grid-12">
+
+				<div class="grid_12 payment">
+
+        <h3>Payment Information</h3>
+
             <form>
               <div class="grid_4">
   						<span class="formname">Name:</span>  <br />
-              <input type="text" name="firstname" value="First Name"/>
+              <input type="text" name="firstname" placeholder="First Name" value=""/>
             </div>
             <div class="grid_4">
               <br />
-              <input type="text" name="lastname" value="Last Name"/>
+              <input type="text" name="lastname" placeholder="Last Name"/>
             </div>
             <div class="grid_4 omega">
               <span class="formname">Age:</span> <br />
-              <input type="text" name="age" value="0"/>
+              <input type="text" name="age" placeholder="0" value=""/>
             </div>
 
               <div class="grid_4">
   						<span class="formname">Credit Card:</span> <br />
-              <input type="text" name="credit" value="0000 0000 0000"/>
+              <input type="text" name="credit" placeholder="0000 0000 0000" value=""/>
             </div>
             <div class="grid_4">
               <span class="formname">Code:</span> <br />
-              <input type="text" name="code" value="000"/>
+              <input type="text" name="code" placeholder="000" value=""/>
             </div>
             <div class="grid_4 omega">
               <span class="formname">Flight ID:</span> <br />
-              <input type="text" name="flightid" value="#00000"/>
+              <input type="text" name="flightid" placeholder="#00000" value=""/>
 
             </div>
 
             <div class="grid_4">
 
   						<span class="formname">Email:</span> <br />
-              <input type="text" name="email" value="email@email.com"/>
+              <input type="text" name="email" placeholder="email@email.com" value=""/>
             </div>
             <div class="grid_4">
               <span class="formname">Phone Number:</span> <br />
-              <input type="text" name="phonenumber" value="(000)000-0000"/>
+              <input type="text" name="phonenumber" placeholder="(000)000-0000" value=""/>
             </div>
             <div class="grid_4 omega"></div>
 
             <div class="grid_4">
 
   						<span class="formname">Address:</span> <br />
-              <input type="text" name="street" value="000 Street Name"/>
+              <input type="text" name="street" placeholder="000 Street Name"  value=""/>
             </div>
             <div class="grid_4">
               <span class="formname">State / Privince:</span><br />
-              <input type="text" name="state" value="British Columbia"/>
+              <input type="text" name="state" placeholder="British Columbia"  value=""/>
             </div>
             <div class="grid_4 omega">
               <span class="formname">Country:</span><br />
-               <input type="text" name="country" value="Canada"/>
+               <input type="text" name="country" placeholder="Canada"  value=""/>
              </div>
               <br />
 
   						<br />
   						<!-- submit button-->
-  						<div><a href="confirm.html">Submit</a></div>
+							<button id="button" class="myButton">Submit</button>
+
+
+
   					</form>
 
 
@@ -132,15 +120,38 @@
 
 		</div>
 
+<!-- <div class="grid-12" id="confirmDiv">
+	<div class="cfcontent">Confirm Payment?</div>
+</div> -->
 
 
-	<div class="footer grid_12">
-		<div class="grid_4">
-			<img src="img/fb.png">
-			<img src="img/twitter.png">
-			<img src="img/google.png">
+	<div class="footer">
+		<div class="grid_3">
+			<div class="grid_12">
+				<p>1234 Street, City</p>
+				<p>1234 Street, City</p>
+			</div>
+					<div class="grid_2">
+					<img src="img/fb.png" width="100%">
+				</div>
+				<div class="grid_2">
+					<img src="img/twitter.png" width="100%">
+				</div>
+				<div class="grid_2">
+					<img src="img/google.png" width="100%">
+				</div>
+
 		</div>
+		<div class="grid_3">
+			<p>1234 Street, City</p>
+			<p>1234 Street, City</p>
+			<p>1234 Street, City</p>
+			<p>1234 Street, City</p>
+		</div>
+		<div class="grid_6 omega"></div>
 	</div>
+
+
 	</body>
 
 </html>

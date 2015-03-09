@@ -7,69 +7,136 @@
 		<meta charset = "utf-8">
 		<title> Project Halo Flights </title>
 
-		<link rel = "stylesheet" href = "css/template.css">
-		<link rel = "stylesheet" href = "css/flexgrid.css">
 		<link rel = "stylesheet" href = "css/main.css">
 		<link rel = "stylesheet" href = "css/grid.css">
 		<link rel = "stylesheet" href = "css/flight.css">
-    <link rel = "stylesheet" href = "css/purchase.css">
 
 
+		<script>
+
+		function toggle_visibility(id)
+			{
+					var e = document.getElementById(id);
+					if (e.style.display == 'none' || e.style.display=='')
+					{
+							e.style.display = 'block';
+					}
+					else
+					{
+							e.style.display = 'none';
+					}
+			}
+
+		</script>
 
 	</head>
 
 	<body>
 
-		<h1> PROJECT HALO </h1>
-		<div class = "placeholderBox">
-		</div>
+		<div class="header">
+		<a href = "index.html"> <img alt = "Header Logo for Project Halo" src = "img/project-halo-header.jpg" height = "auto" width = "250"> </a>
 
-		<!-- Navigational Bar -->
-		<nav class = "box">
-				<div class = "box-item-nav">
-					<a href = "flights.html"> FLIGHTS </a>
-					<ul>
-							<li><a href="">SubNav Test1</a><li>
-							<li><a href="">Test2</a><li>
-					</ul>
-				</div>
+	</div>
+	<div class="grid_12">
 
-				<div class = "box-item-nav">
-					<a href = "information.html"> INFORMATION </a>
-				</div>
+				<div class="grid-6 stepCurrent"><a href="#"> 01 flight </a></div>
+				<div class="grid-6 step"><a href="purchase.html"> 02 payment </a></div>
+				<div class="grid-6 step"><a href="confirm.html"> 03 confirmation </a></div>
 
-				<div class = "box-item-nav">
-					<a href = "contact.html"> CONTACT US </a>
-				</div>
-		</nav>
+	</div>
 
 
 
 
-		<div>
-			<div class="grid_4 contentImg">
 
-				<div class="flightButton f1">
-					<a href="flightclass.html">Link</a>
-				</div>
-				<div class="flightTitle">
-					<h2>Flight Title</h2>
-				</div>
+		<div class="grid_12">
+			<div class="grid-6">
+				<img src="img/flights_iss_img.jpg" width="100%">
+
 			</div>
 
-			<div class="grid_8 omega">
+			<div class="grid-12 flightDetail">
 				<div class="grid_12 omega" style="display:inline-block; height:75%;">
-					<h3>FLIGHT INFORMATION</h3>
+					<h3>Flight Detail</h3>
+
 				<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat est vitae placerat aliquam. In eu ornare felis. Fusce lorem arcu, scelerisque ac gravida sed, bibendum vel sem. Phasellus id nulla in ante mollis accumsan ac ac libero. Pellentesque ac mauris justo. Fusce at dolor id magna condimentum condimentum ac vel est. Curabitur lacinia eros vitae venenatis facilisis. Nulla facilisi. Etiam accumsan ex est, posuere rutrum nunc convallis et.
 					Integer ultricies est nisi, et lobortis nunc bibendum at.</p>
 
+						<!-- <div class="pButton"><a href="purchase.html">Purchase</a></div> -->
 
-					<h3>REVIEWS</h3>
-					<p>Excellent Journey, Terrible Landing</p>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque volutpat est vitae placerat aliquam. In eu ornare felis.
-						Fusce lorem arcu, scelerisque ac gravida sed, bibendum vel sem.</p>
+						<div class="grid_12 classSelection">
+							<a href="purchase.html">
+								<div class="grid-6 imgcontainer">
+								<img src="img/events_2_img.jpg">
 
-						<div class="pButton"><a href="purchase.html">Purchase</a></div>
+								<div class="imgtext">
+									<h4>FIRST CLASS</h4>
+									<p>$6 million</p>
+								</div>
+							</div></a>
+							<a href="purchase.html">
+							<div class="grid-6 imgcontainer">
+								<img src="img/events_4_img.jpg">
+								<div class="imgtext">
+									<h4>BUSINESS</h4>
+									<p>$4 million</p>
+								</div>
+							</div>
+						</a>
+						<a href="purchase.html">
+							<div class="grid-6 imgcontainer">
+								<img src="img/events_5_img.jpg">
+								<div class="imgtext">
+									<h4>ECONOMY</h4>
+									<p>$2 million</p>
+								</div>
+							</div>
+						</a>
+						</div>
+
+						<h3>Review</h3>
+						<div id="review" class="grid_12">
+
+								<div class="grid_2 reviewside">
+									<img src="img/profile.png" width="50em">
+									<p>Ben</p>
+								</div>
+							<div class="grid_10 omega">
+										<h4>Excellent Journey</h4>
+										<div><img src="img/star_white.png" width="80em"></div>
+										<p>Description is accurate; we liked the travelling experience, and private secition that was provided to us. Spacious, clean, neatly organized. The flight attendent seemed to be eager to help, although we did not need anything in this case.
+										Nice company, I recommend it.</p>
+
+							</div>
+
+
+
+
+						</div>
+						<div class="grid_12">
+								<form>
+
+										<span class="formname">Review Title:</span>
+										<span class="grid_12"><input type="text" name="email" value=""/></span>
+											<br />
+											<fieldset class="rating">
+											    <legend>Please rate:</legend>
+											    <input type="radio" id="star5" name="rating" value="5" /><label for="star5" >5 stars</label>
+											    <input type="radio" id="star4" name="rating" value="4" /><label for="star4" >4 stars</label>
+											    <input type="radio" id="star3" name="rating" value="3" /><label for="star3" >3 stars</label>
+											    <input type="radio" id="star2" name="rating" value="2" /><label for="star2" >2 stars</label>
+											    <input type="radio" id="star1" name="rating" value="1" /><label for="star1" >1 star</label>
+											</fieldset>
+										<span class="formname grid_12">Review Note:</span>
+										<span class="grid_12"><input type="text" name="note" value=""/></span>
+											<br />
+
+										<br />
+										<!-- submit button-->
+										<div class="grid_12 submit"><a href="">Submit Review</a></div>
+									</form>
+						</div>
+
 
         </div>
 

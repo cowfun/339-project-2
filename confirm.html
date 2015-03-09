@@ -7,64 +7,59 @@
 		<meta charset = "utf-8">
 		<title> Project Halo Flights </title>
 
-		<link rel = "stylesheet" href = "css/template.css">
-		<link rel = "stylesheet" href = "css/flexgrid.css">
 		<link rel = "stylesheet" href = "css/main.css">
 		<link rel = "stylesheet" href = "css/grid.css">
 		<link rel = "stylesheet" href = "css/flight.css">
-    <link rel = "stylesheet" href = "css/purchase.css">
 
 
+		<script>
+
+		function toggle_visibility(id)
+			{
+					var e = document.getElementById(id);
+					if (e.style.display == 'none' || e.style.display=='')
+					{
+							e.style.display = 'block';
+					}
+					else
+					{
+							e.style.display = 'none';
+					}
+			}
+
+		</script>
 
 	</head>
 
 	<body>
 
-		<h1> PROJECT HALO </h1>
-		<div class = "placeholderBox">
-		</div>
+		<div class="header">
+		<a href = "index.html"> <img alt = "Header Logo for Project Halo" src = "img/project-halo-header.jpg" height = "auto" width = "250"> </a>
 
-		<!-- Navigational Bar -->
-		<nav class = "box">
-				<div class = "box-item-nav">
-					<a href = "flights.html"> FLIGHTS </a>
-					<ul>
-							<li><a href="">SubNav Test1</a><li>
-							<li><a href="">Test2</a><li>
-					</ul>
-				</div>
+	</div>
+	<div class="grid_12">
 
-				<div class = "box-item-nav">
-					<a href = "information.html"> INFORMATION </a>
-				</div>
+				<div class="grid-6 step"><a href="#"> 01 flight </a></div>
+				<div class="grid-6 step"><a href="purchase.html"> 02 payment </a></div>
+				<div class="grid-6 stepCurrent"><a href="confirm.html"> 03 confirmation </a></div>
 
-				<div class = "box-item-nav">
-					<a href = "contact.html"> CONTACT US </a>
-				</div>
-		</nav>
+	</div>
 
 
 
 
-		<div>
-			<div class="grid_4 contentImg">
 
-				<div class="flightButton f1">
-					<a href="flightclass.html">Link</a>
-				</div>
-				<div class="flightTitle">
-					<h2>Flight Title</h2>
-				</div>
-			</div>
-
-			<div class="grid_8 omega">
-				<div class="grid_12 omega" style="display:inline-block; height:75%;">
-					<h3>Purchase Confirmed</h3>
-
-
-        </div>
+		<div class="grid_12">
+			<div class="grid-6">
+				<img src="img/flights_iss_img.jpg" width="100%">
 
 			</div>
+
+			<div class="grid-12 flightDetail">
+				<h3>Flight has been purchased !</h3>
+				<p>Please click <a href="flights.html">here</a> to browse for more flight options.</p>
+			</div>
+
 
 		</div>
 

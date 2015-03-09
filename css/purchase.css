@@ -1,7 +1,12 @@
+
+
+body{
+  background-color:#000;
+}
 input{
 
-  padding:20px;
-width:90%;
+  padding:10px;
+width:80%;
  border: none;
  border-bottom: solid 2px #c9c9c9;
  transition: border 0.3s;
@@ -13,4 +18,67 @@ form .grid_4{
 
 form .grid_6{
   height:80px;
+}
+
+#subButton{
+
+  padding:10px;
+}
+
+.payment{
+  padding:1em;
+}
+/*process bar style*/
+.step{
+  background-color:#333;
+  text-align:center;
+  padding:1em 0;
+
+
+}
+.stepCurrent{
+  background-color:#000;
+  text-align:center;
+  padding:1em 0;
+  opacity:0.5;
+}
+
+.step a:hover{
+  opacity:0.5;
+}
+
+#confirmDiv{
+  background-color:#fff;
+  opacity:0.8;
+  height:80%;
+  position:absolute;
+  z-index:3;
+  top:13.5%;
+  right:0;
+  color:#000;
+  text-align:center;
+
+}
+
+#confirmDiv .cfcontent{
+  padding:2em;
+}
+
+@media screen and (max-width : 700px) {
+
+  .grid_1, .grid-1,
+  .grid_2,  .grid-2,
+  .grid_3, .grid-3,
+  .grid_4, .grid-4,
+  .grid_5, .grid-5,
+  .grid_6, .grid-6,
+  .grid_7, .grid-7,
+  .grid_8,  .grid-8,
+  .grid_9,  .grid-9,
+  .grid_10, .grid-10,
+  .grid_11, .grid-11,
+  .grid-12,
+  .grid-12 {
+  	width:100%;
+  }
 }

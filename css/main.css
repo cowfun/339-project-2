@@ -365,3 +365,12 @@ nav .box-item-nav a:hover{
 		display: block;
 
 	}
+
+
+	/* Tablet */
+@media screen and (max-width: 1024px) {
+}
+
+	/* Mobile */
+	@media screen and (max-width: 480px) {
+	}

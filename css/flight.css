@@ -147,6 +147,13 @@ background-size: contain;
 	font-size:1.5em;
 }
 
+
+.confirmDetail p, .confirmDetail h4{
+	text-align:center;
+}
+.confirmDetail a{
+	color:#333;
+}
 #review{
 
 	text-align:left;

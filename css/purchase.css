@@ -29,8 +29,9 @@ fieldset.rating{
 }
 
 .payment{
-  padding:1em;
+  padding-top:1em;
 }
+
 /*process bar style*/
 .step{
   background-color:#333;
@@ -92,6 +93,9 @@ fieldset.rating{
     display:none;
     height:0;
   }
+  .grid-6 img{
+    display:none;
+  }
 
 }
 
@@ -101,5 +105,8 @@ fieldset.rating{
 .contentImg{
     display:none;
     height:0;
+  }
+  .grid-6 img{
+    display:none;
   }
 }

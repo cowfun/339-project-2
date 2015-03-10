@@ -121,7 +121,7 @@
 		font-size: 8px;
 }
 
-@media screen and (max-width : 768px) {
+@media screen and (max-width : 480px) {
 
 .event1 .imgtext{
 
@@ -131,4 +131,5 @@
 .imgtext{
 
 	height:100%;
+}
 }

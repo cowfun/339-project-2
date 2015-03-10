@@ -93,6 +93,9 @@ fieldset.rating{
     display:none;
     height:0;
   }
+  .grid-6 img{
+    display:none;
+  }
 
 }
 
@@ -102,5 +105,8 @@ fieldset.rating{
 .contentImg{
     display:none;
     height:0;
+  }
+  .grid-6 img{
+    display:none;
   }
 }

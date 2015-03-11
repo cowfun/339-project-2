@@ -218,7 +218,7 @@ width:95%;
 /* STAR RATING CSS STARTS */
 
 fieldset.rating{
-	width:33%;
+	width:100%;
 
 	  border:0;
 
@@ -230,7 +230,7 @@ fieldset.rating{
 }
 
 .rating:not(:checked) > label {
-    float:right;
+    float:left;
     width:1em;
     padding:0 .1em;
     overflow:hidden;

@@ -8,7 +8,7 @@
 
 		<!-- Linking CSS files -->
 		<link rel = "stylesheet" href = "css/styleguide.css">
-		<!--<link rel = "stylesheet" href = "css/main.css"> -->
+		<link rel = "stylesheet" href = "css/grid.css">
 		<link href="css/grid.css" rel="stylesheet">
 		<!--<link href="css/nav.css" rel="stylesheet">-->
 		<link rel="stylesheet" href="//code.jquery.com/ui/1.11.3/themes/smoothness/jquery-ui.css">
@@ -17,11 +17,7 @@
 	  	<script src="http://code.jquery.com/jquery-1.10.2.js"></script>
 	  	<script src="http://code.jquery.com/ui/1.11.3/jquery-ui.js"></script>
 	  	<link rel="stylesheet" href="http://jqueryui.com/resources/demos/style.css">
-	  	<script>
-	  		$(function() {
-	    		$( "#datepicker" ).datepicker();
-	  		});
-	  	</script>
+
 
 	</head>
 
@@ -38,13 +34,13 @@
 				<a href = "#buttons"> BUTTONS </a>
 
 				<a href = "#forms"> FORMS </a>
-					
+
 				<a href = "#imgexamples"> IMAGE EXAMPLES </a>
-				
+
 				<a href = "#navigation"> NAVIGATION </a>
-				
+
 				<a href = "#animation"> ANIMATION </a>
-				
+
 				<a href = "#grid"> GRID </a>
 			</nav>
 		</div>
@@ -160,7 +156,7 @@
 					<a class = "redbutton" href = "#"> PURCHASE </a>
 					<h4> Sample Code </h4>
 					<code class="sampleCode"> &lt;a class = "redbutton" href = "#"&gt; BUTTON &lt;/a&gt;</code>
-	
+
 					<h3> Grey Style Buttons </h3>
 					<a class = "greybutton" href = "#"> BUTTON </a>
 					<a class = "greybutton" href = "#"> SUBMIT </a>
@@ -238,7 +234,21 @@
 						<code class="sampleCode"> &lt;input type="text" id="form-phone" placeholder="(000) 000-0000"&gt;</code>
 
 
-						<p>Date: <input type="text" id="datepicker"></p>
+
+
+						<fieldset class="rating">
+								<legend>Please rate:</legend>
+								<input type="radio" id="star5" name="rating" value="5" /><label for="star5" >5 stars</label>
+								<input type="radio" id="star4" name="rating" value="4" /><label for="star4" >4 stars</label>
+								<input type="radio" id="star3" name="rating" value="3" /><label for="star3" >3 stars</label>
+								<input type="radio" id="star2" name="rating" value="2" /><label for="star2" >2 stars</label>
+								<input type="radio" id="star1" name="rating" value="1" /><label for="star1" >1 star</label>
+						</fieldset>
+
+						<h4> Sample Code </h4>
+							<code class="sampleCode">
+								&lt;input type="text" id="form-phone" placeholder="(000) 000-0000"&gt;
+								</code>
 					</div>
 
 			</section>
@@ -256,13 +266,116 @@
 					<img src="img/canaveral.jpg" height="auto" width="100%" alt="Spaceship blasting off">
 
 					<img src="img/spacex-dragon.jpg" height="auto" width="100%" alt="Satellite in orbit">
+
+					<article id = "Events" class="grid_4">
+						<div class = "grid_12" id="columnItem">
+
+							<div class = "box-item-article-image">
+								<div class = "imgBorder">
+
+									<a href = "events.html">
+
+										<div class="event1">
+
+											<img alt = "Splashscreen photo with the words, The Gateway to the Universe" src = "img/events_1_img.jpg"  height="auto" width = "100%" class="imgblock">
+
+											<div class="imgtext">
+
+												<h4> HARVESTING CRYSTAL CLUSTERS </h4>
+
+												<p> 04.16.17 </p>
+
+												<p> Scientist from HALO have found methods of creating energy from the crystal clusters found in the atmosphere. Learn More. </p>
+
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+
+
+					</article>
+					<article id = "Events" class="grid_4">
+						<div class = "grid_12" id="columnItem">
+
+							<div class = "box-item-article-image">
+								<div class = "imgBorder">
+
+									<a href = "events.html">
+
+										<div class="event1">
+
+											<img alt = "Splashscreen photo with the words, The Gateway to the Universe" src = "img/events_1_img.jpg"  height="auto" width = "100%" class="imgblock">
+
+											<div class="imgtext">
+
+												<h4> HARVESTING CRYSTAL CLUSTERS </h4>
+
+												<p> 04.16.17 </p>
+
+												<p> Scientist from HALO have found methods of creating energy from the crystal clusters found in the atmosphere. Learn More. </p>
+
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+
+
+					</article>
+					<article id = "Events" class="grid_4 omega">
+						<div class = "grid_12" id="columnItem">
+
+							<div class = "box-item-article-image">
+								<div class = "imgBorder">
+
+									<a href = "events.html">
+
+										<div class="event1">
+
+											<img alt = "Splashscreen photo with the words, The Gateway to the Universe" src = "img/events_1_img.jpg"  height="auto" width = "100%" class="imgblock">
+
+											<div class="imgtext">
+
+												<h4> HARVESTING CRYSTAL CLUSTERS </h4>
+
+												<p> 04.16.17 </p>
+
+												<p> Scientist from HALO have found methods of creating energy from the crystal clusters found in the atmosphere. Learn More. </p>
+
+											</div>
+										</div>
+									</a>
+								</div>
+							</div>
+						</div>
+
+
+					</article>
+					<h4> Sample Code </h4>
+					<code class="sampleCode">
+						&lt;div class="event"&gt;<br>
+						&lt;img src="#" class="imgblock" &gt;<br>
+						&lt;div class="imgtext"&gt;
+
+						&lt;h4&gt;HARVESTING CRYSTAL CLUSTERS &lt;/h4&gt;<br>
+						&lt;/div&gt;	&lt;/div&gt;
+
+					</code>
+
+
 				</div>
 			</section>
 
 
 			<section id = "navigation">
 
-				<h2 class = "headingType"> NAVIGATION </h3>
+
+
+
+				<h2 class = "headingType">NAVIGATION </h3>
 				<div class = "containingBox">
 					<!--<div class="samplenav">
 						<nav>
@@ -275,7 +388,7 @@
 				<div class = "navTest">
 					<ul>
 						<li id = "invisibleMonkey"> <a href ="#"> MENU </a> </li>
-						<ul>
+						<ul class="secNav">
 							<li> <a href="#">HOME</a> </li>
 							<li> <a href="#">INFORMATION</a> </li>
 							<li> <a href="#">CONTACT US</a> </li>

@@ -347,7 +347,12 @@ a.greybutton:hover, a.greybutton:active{
 #topheader{
 	background-color:#222;
 }
-
+#menu{
+	font-family: "Futura-Medium";
+	font-weight: normal;
+	font-style: normal;
+	src: url('fonts/FuturaStd-Medium.otf') format('opentype');
+}
 .header{
   background-color:#222;
 }

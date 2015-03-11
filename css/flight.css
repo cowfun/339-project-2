@@ -83,18 +83,19 @@ background-size: contain;
 
 }
 
+.flightDetail{
+	margin-top:4%;
+}
 .flightDetail h3{
 	text-align:left;
-	margin-left:0.6em;
+	margin-left:8%;
 }
 
 .flightDetail p{
-	margin-left:1em;
+	margin-left:8%;;
 	font-size:0.8em;
 }
-.classSelection{
-	margin-left:0.8em;
-}
+
 
 .flightButton a{
 	float: none;
@@ -138,6 +139,9 @@ background-size: contain;
 }
 
 .classSelection{
+	margin-left:8%;
+}
+.classSelection{
 	margin-top:2em;
 }
 .classSelection h3{
@@ -147,19 +151,26 @@ background-size: contain;
 
 }
 
+#rightdetail{
+	background-color:#222;
+
+}
 #review{
 	margin-top:2em;
 }
 .imgcontainer{
 	position:relative;
+	margin-right:9%;
+	margin-top:1em;
 }
 
 .imgcontainer img{
 	opacity:0.5;
+
 }
 .imgtext{
 	position: absolute;
-   top: 45%;
+   top: 30%;
    left: 0;
    text-align: center;
    width: 100%;
@@ -193,9 +204,19 @@ background-size: contain;
 	text-align:center;
 }
 
+#userreview{
+	margin-left:8%;
+}
+#userreview p{
+	margin-left:0;
+}
+
+#reviewbox{
+	margin-left:6%;
+}
 
 .blackbutton{
-	background-color: #222222;
+	background-color: #000;
 	padding: 10px;
 	opacity: 0.7;
 	border: thin solid black;
@@ -217,7 +238,7 @@ form a.blackbutton {
 }
 
 form a.blackbutton:hover, a.blackbutton:active{
-	background-color: #000;
+	background-color: #333;
 	color: white;
 }
 
@@ -259,12 +280,17 @@ margin-bottom:1em;
 }
 
 input{
-
-  padding:10px;
-width:95%;
+	margin-top:1em;
+  padding:5px;
+width:50%;
  border: none;
  border-bottom: solid 2px #c9c9c9;
  transition: border 0.3s;
+}
+
+input #rNote{
+	width:95%;
+
 }
 
 /* STAR RATING CSS STARTS */
@@ -337,9 +363,43 @@ fieldset.rating legend{
 }
 
 @media screen and (max-width : 700px) {
+
+	.classSelection .grid_3{
+		width:30%;
+
+	}
+
+	#reviewbox .grid_12{
+		width:80%;
+	}
+
+	.classSelection{
+		margin-left:0;
+	}
+	.classSelection h3{
+		margin-left:8%;
+	}
+
+	.imgcontainer {
+  position: relative;
+  margin-right:0;
+  margin-top: 1em;
+
+	}
+	p{
+		width:80%;
+	}
+
 	#product .grid_4{
 		width: 32%;
 	}
+	.imgtext {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
 
   .grid_1, .grid-1,
   .grid_2,  .grid-2,

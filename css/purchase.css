@@ -2,11 +2,11 @@
 
 body{
   background-color:#000;
-  
+
 }
 input{
 
-  padding:10px;
+  padding:5px;
 width:80%;
  border: none;
  border-bottom: solid 2px #c9c9c9;
@@ -69,11 +69,21 @@ fieldset.rating{
   padding:2em;
 }
 
+.payment{
+  margin-left:8%;
+}
 /* Tablet */
 @media screen and (max-width: 1024px) {
+
+
 }
 
 @media screen and (max-width : 700px) {
+
+  #payscreen .grid_9{
+
+    width:90%;
+  }
 
   .grid_1, .grid-1,
   .grid_2,  .grid-2,

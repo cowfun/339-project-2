@@ -53,8 +53,7 @@ h2{
 }
 
 .headingType{
-	color: white;
-	background-color: #222222;
+	color: #222222;
 	text-align: center;
 	padding-top: 10px;
 	padding-bottom: 10px;
@@ -173,6 +172,27 @@ code{
 	border-radius: 20px;
 }
 
+li{
+	display: inline-block;
+	width: 200px;
+	background-color: #222222;
+	list-style-type: none;
+	font-size: 16px;
+	padding: 10px;
+	text-align: center;
+}
+
+#invisibleMonkey{
+	opacity: 0;
+}
+
+.navTest li:hover{
+	background-color: #A7A9AB;
+}
+
+.navTest{
+	display: block;}
+
 a{
 	font-family: "Futura";
 	color: white;
@@ -185,4 +205,31 @@ a:hover{
 
 *, *::after, *::before {
 	box-sizing: border-box;
+}
+
+@media screen and (max-width: 768px){
+
+	#invisibleMonkey{
+		opacity: 1;
+	}
+
+	ul li ul{
+		list-style: none;
+		display: block;
+		position: absolute;
+		opacity: 0;
+		left: 0;
+		visibility: hidden;
+		clear: right;
+	}
+
+	ul li:hover ul{
+		list-style: none;
+		display: block;
+		position: absolute;
+		opacity: 1;
+		left: 0;
+		visibility: visible;
+		clear: right;
+	}
 }

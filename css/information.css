@@ -219,6 +219,35 @@ input{
 	font-size:2em;
 
 }
+
+.blackbutton{
+	background-color: #000;
+	padding: 10px;
+	opacity: 0.7;
+	border: thin solid black;
+
+	border-radius: 20px;
+	color: white;
+
+}
+
+
+
+
+form a.blackbutton {
+	display: inline-block;
+ 	padding: 1em 1em;
+  	color: white;
+  	border: solid #222222;
+  	text-decoration: none;
+		margin-top:1em;
+}
+
+form a.blackbutton:hover, a.blackbutton:active{
+	background-color: #333;
+	color: white;
+}
+
 /* STAR RATING CSS STARTS */
 .rating:not(:checked) > input {
     position:absolute;
@@ -293,6 +322,6 @@ input{
 	#homeNav{
 		display:block;
 	}
-	
+
 
 }

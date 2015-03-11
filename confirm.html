@@ -33,31 +33,35 @@
 
 	<body>
 
-		<div class="header">
-		<a href = "index.html"> <img alt = "Header Logo for Project Halo" src = "img/project-halo-header.jpg" height = "auto" width = "250"> </a>
+		<div id="topheader">
+		<a href = "index.html"> <img alt = "Header Logo for Project Halo" src = "img/project-halo-header.jpg" height = "auto" width = "100%" id="halologo"> </a>
+
 
 	</div>
-	<div class="grid_12">
 
-				<div class="grid-6 step"><a href="flight_iss.html"> 01 flight </a></div>
-				<div class="grid-6 step"><a href="purchase.html"> 02 payment </a></div>
-				<div class="grid-6 stepCurrent"><a href="confirm.html"> 03 confirmation </a></div>
-
-	</div>
 
 
 
 
 
 		<div class="grid_12">
-			<div class="grid-6">
+			<div class="grid-6" id="confirmimg">
 				<img src="img/launch.jpg" width="100%">
 
 			</div>
 
 			<div class="grid-12 confirmDetail">
+				<div class="grid_12">
+
+							<div class="grid-6 step"><a href="flight_iss.html"> FLIGHT </a></div>
+							<div class="grid-6 step"><a href="purchase.html"> PAYMENT </a></div>
+							<div class="grid-6 stepCurrent"><a href="confirm.html"> CONFIRMATION </a></div>
+
+				</div>
+				<div id="conText">
 				<h3>Flight has been purchased !</h3>
-				<p>Please click <a href="flights.html">here</a> to browse for more flight options.</p>
+				<p>Please click <a href="flights.html" class="blackbutton">here</a> to browse for more flight options.</p>
+			</div>
 			</div>
 
 

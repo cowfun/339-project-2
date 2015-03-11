@@ -24,7 +24,7 @@ form{
 
 input{
 
-padding:1em;
+padding:0.5em;
 width:80%;
  border: none;
  border-bottom: solid 2px #c9c9c9;
@@ -32,6 +32,33 @@ width:80%;
 }
 
 
+.blackbutton{
+	background-color: #000;
+	padding: 10px;
+	opacity: 0.7;
+	border: thin solid black;
+
+	border-radius: 20px;
+	color: white;
+
+}
+
+
+
+
+form a.blackbutton {
+	display: inline-block;
+ 	padding: 1em 1em;
+  	color: white;
+  	border: solid #222222;
+  	text-decoration: none;
+		margin-top:1em;
+}
+
+form a.blackbutton:hover, a.blackbutton:active{
+	background-color: #333;
+	color: white;
+}
 .formname{
 	color:#333;
 }

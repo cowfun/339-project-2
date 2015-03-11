@@ -6,6 +6,7 @@
 
 		<meta charset = "utf-8">
 		<title> Project Halo Flights </title>
+		<meta name="viewport" content="width=device-width, user-scalable=no">
 
 		<link rel = "stylesheet" href = "css/main.css">
 		<link rel = "stylesheet" href = "css/grid.css">
@@ -33,17 +34,12 @@
 
 	<body>
 
-		<div class="header">
-		<a href = "index.html"> <img alt = "Header Logo for Project Halo" src = "img/project-halo-header.jpg" height = "auto" width = "250"> </a>
+		<div id="topheader">
+		<a href = "index.html"> <img alt = "Header Logo for Project Halo" src = "img/project-halo-header.jpg" height = "auto" width = "100%" id="halologo"> </a>
+
 
 	</div>
-	<div class="grid_12">
 
-				<div class="grid-6 stepCurrent"><a href="#"> 01 flight </a></div>
-				<div class="grid-6 step"><a href="purchase.html"> 02 payment </a></div>
-				<div class="grid-6 step"><a href="confirm.html"> 03 confirmation </a></div>
-
-	</div>
 
 
 
@@ -51,11 +47,18 @@
 
 		<div class="grid_12 omega">
 			<div class="grid-6 flightimgDiv">
-				<img src="img/flights_iss_img.jpg" width="100%">
+				<img src="img/flights_mars_img.jpg" width="100%">
 
 			</div>
 
-			<div class="grid-12 omega">
+			<div class="grid-12 omega" id="rightdetail">
+				<div class="grid_12 omega">
+
+							<div class="grid-6 stepCurrent"><a href="flight_iss.html"> FLIGHT </a></div>
+							<div class="grid-6 step"><a href="purchase.html"> PAYMENT </a></div>
+							<div class="grid-6 step"><a href="confirm.html"> CONFIRMATION </a></div>
+
+				</div>
 				<div class="grid_11 flightDetail omega">
 					<h3>Flight Detail</h3>
 
@@ -65,38 +68,41 @@
 						<!-- <div class="pButton"><a href="purchase.html">Purchase</a></div> -->
 
 						<div class="grid_12 classSelection omega">
+							<h3>Travel Class</h3>
+
 							<a href="purchase.html">
-								<div class="grid-6 imgcontainer">
+								<div class="grid_3 imgcontainer">
 								<img src="img/events_2_img.jpg">
 
 								<div class="imgtext">
-									<h4>FIRST CLASS</h4>
+									<p>FIRST CLASS</p>
 									<p>$6 million</p>
 								</div>
 							</div></a>
 							<a href="purchase.html">
-							<div class="grid-6 imgcontainer">
+							<div class="grid_3 imgcontainer">
 								<img src="img/events_4_img.jpg">
 								<div class="imgtext">
-									<h4>BUSINESS</h4>
+									<p>BUSINESS</p>
 									<p>$4 million</p>
 								</div>
 							</div>
 						</a>
 						<a href="purchase.html">
-							<div class="grid-6 imgcontainer omega">
+							<div class="grid_3 imgcontainer omega">
 								<img src="img/events_5_img.jpg">
 								<div class="imgtext">
-									<h4>ECONOMY</h4>
+									<p>ECONOMY</p>
 									<p>$2 million</p>
 								</div>
 							</div>
 						</a>
 						</div>
 
-						<h3>Review</h3>
-						<div id="review" class="grid_12 omega">
 
+						<div id="review" class="grid_12 omega">
+							<h3>Review</h3>
+							<div id="userreview">
 								<div class="grid_2 reviewside">
 									<img src="img/profile.png" width="50em">
 									<p>Ben</p>
@@ -108,11 +114,13 @@
 										Nice company, I recommend it.</p>
 
 							</div>
+						</div>
 
 
 
 
 						</div>
+						<div id="reviewbox">
 						<div class="grid_12 omega">
 								<form>
 
@@ -128,14 +136,14 @@
 											    <input type="radio" id="star1" name="rating" value="1" /><label for="star1" >1 star</label>
 											</fieldset>
 										<span class="formname grid_11 omega">Review Note:</span>
-										<span class="grid_11 omega"><input type="text" name="note" value=""/></span>
+										<span class="grid_11 omega"><input type="text" name="note" value="" id="rNote" /></span>
 											<br />
 
 										<br />
 										<!-- submit button-->
-										<input type="submit" name="submit" value="Submit Review"/>
+										<a href="#" class="blackbutton">Submit Review</a>
 									</form>
-						</div>
+						</div></div>
 
 
         </div>

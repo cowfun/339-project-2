@@ -1,8 +1,11 @@
 html{
 	background-color:#000;
 	color:#fff;
+	height:100%;
 }
-
+body{
+	height:100%;
+}
 
 
 h3{
@@ -45,7 +48,7 @@ p{
 
 .f1{
 	background: url(../img/flights_mars_img.jpg) no-repeat;
-
+	background-position:center;
 
 -webkit-background-size: cover;
 -moz-background-size: cover;
@@ -56,7 +59,7 @@ background-size: contain;
 .f2{
 	background: url(../img/flights_iss_img.jpg) no-repeat;
 
-
+	background-position:center;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -66,7 +69,7 @@ background-size: contain;
 .f3{
 	background: url(../img/flights_mun_img.jpg) no-repeat;
 
-
+	background-position:center;
 -webkit-background-size: cover;
 -moz-background-size: cover;
 -o-background-size: cover;
@@ -78,6 +81,19 @@ background-size: contain;
 	z-index:2;
 	color:#fff;
 
+}
+
+.flightDetail{
+	margin-top:4%;
+}
+.flightDetail h3{
+	text-align:left;
+	margin-left:8%;
+}
+
+.flightDetail p{
+	margin-left:8%;;
+	font-size:0.8em;
 }
 
 
@@ -122,20 +138,39 @@ background-size: contain;
 	/*padding:1em 0 1em 1em;*/
 }
 
+.classSelection{
+	margin-left:8%;
+}
+.classSelection{
+	margin-top:2em;
+}
+.classSelection h3{
+	margin-left:0;
+}
 .classSelection img{
 
 }
 
+#rightdetail{
+	background-color:#222;
+
+}
+#review{
+	margin-top:2em;
+}
 .imgcontainer{
 	position:relative;
+	margin-right:9%;
+	margin-top:1em;
 }
 
 .imgcontainer img{
 	opacity:0.5;
+
 }
 .imgtext{
 	position: absolute;
-   top: 45%;
+   top: 30%;
    left: 0;
    text-align: center;
    width: 100%;
@@ -148,11 +183,16 @@ background-size: contain;
 }
 
 
+.confirmDetail{
+	background-color:#222;
+	height:40em;
+}
 .confirmDetail p, .confirmDetail h4{
 	text-align:center;
 }
-.confirmDetail a{
-	color:#333;
+
+#conText{
+	margin-top:20%;
 }
 #review{
 
@@ -167,6 +207,57 @@ background-size: contain;
 
 	height:20%;
 	text-align:center;
+}
+
+#userreview{
+	margin-left:8%;
+}
+#userreview p{
+	margin-left:0;
+}
+
+#reviewbox{
+	margin-left:6%;
+}
+
+.blackbutton{
+	background-color: #000;
+	padding: 10px;
+	opacity: 0.7;
+	border: thin solid black;
+
+	border-radius: 20px;
+	color: white;
+
+}
+
+
+#conText a.blackbutton {
+	display: inline-block;
+ 	padding: 1em 1em;
+  	color: white;
+  	border: solid #222222;
+  	text-decoration: none;
+		margin-top:1em;
+}
+
+#conText a.blackbutton:hover, a.blackbutton:active{
+	background-color: #333;
+	color: white;
+}
+
+form a.blackbutton {
+	display: inline-block;
+ 	padding: 1em 1em;
+  	color: white;
+  	border: solid #222222;
+  	text-decoration: none;
+		margin-top:1em;
+}
+
+form a.blackbutton:hover, a.blackbutton:active{
+	background-color: #333;
+	color: white;
 }
 
 /*process bar style*/
@@ -207,21 +298,35 @@ margin-bottom:1em;
 }
 
 input{
-
-  padding:10px;
-width:95%;
+	margin-top:1em;
+  padding:5px;
+width:50%;
  border: none;
  border-bottom: solid 2px #c9c9c9;
  transition: border 0.3s;
 }
 
+input #rNote{
+	width:95%;
+
+}
+
+#payscreen{
+	background-color:#222;
+}
+
 /* STAR RATING CSS STARTS */
 
 fieldset.rating{
-	width:33%;
-
+	width:100%;
+	padding-left:0;
+	margin-left:0;
+	padding-top:1em;
 	  border:0;
 
+}
+fieldset.rating legend{
+	padding-top:1em;
 }
 .rating:not(:checked) > input {
     position:absolute;
@@ -230,7 +335,7 @@ fieldset.rating{
 }
 
 .rating:not(:checked) > label {
-    float:right;
+    float:left;
     width:1em;
     padding:0 .1em;
     overflow:hidden;
@@ -271,11 +376,60 @@ fieldset.rating{
     top:2px;
     left:2px;
 }
+
 /* Tablet */
 @media screen and (max-width: 1024px) {
+
+	.flightButton a{
+		height:30em;
+	}
 }
 
 @media screen and (max-width : 700px) {
+	#conText{
+		margin-top:40%;
+	}
+
+	#confirmimg{
+		display:none;
+	}
+
+	.classSelection .grid_3{
+		width:30%;
+
+	}
+
+	#reviewbox .grid_12{
+		width:80%;
+	}
+
+	.classSelection{
+		margin-left:0;
+	}
+	.classSelection h3{
+		margin-left:8%;
+	}
+
+	.imgcontainer {
+  position: relative;
+  margin-right:0;
+  margin-top: 1em;
+
+	}
+	p{
+		width:80%;
+	}
+
+	#product .grid_4{
+		width: 32%;
+	}
+	.imgtext {
+  position: absolute;
+  top: 20%;
+  left: 0;
+  text-align: center;
+  width: 100%;
+}
 
   .grid_1, .grid-1,
   .grid_2,  .grid-2,
@@ -315,11 +469,17 @@ fieldset.rating{
 		width:60%;
 		padding:20%;
 	}
+	.flightButton a{
+		height:20em;
+	}
 }
 
 
 /* Mobile */
 @media screen and (max-width: 480px) {
+	#product .grid_4{
+		width: 100%;
+	}
 .contentImg{
     display:none;
     height:0;

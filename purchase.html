@@ -20,20 +20,14 @@
 	</head>
 
 	<body>
-		<div class="header">
-		<a href = "index.html"> <img alt = "Header Logo for Project Halo" src = "img/project-halo-header.jpg" height = "auto" width = "250"> </a>
+		<div id="topheader">
+		<a href = "index.html"> <img alt = "Header Logo for Project Halo" src = "img/project-halo-header.jpg" height = "auto" width = "100%" id="halologo"> </a>
 
 
 	</div>
 
 
-	<div class="grid_12">
 
-				<div class="grid-6 step"><a href="flight_iss.html"> 01 flight </a></div>
-				<div class="grid-6 stepCurrent"><a href="#"> 02 payment </a></div>
-				<div class="grid-6 step"><a href="confirm.html"> 03 confirmation </a></div>
-
-	</div>
 
 
 		<div>
@@ -43,9 +37,16 @@
 			<img src="img/launch.jpg" width="100%">
 			</div>
 
-			<div class="grid-12">
+			<div class="grid-12 omega" id="payscreen">
+				<div class="grid_12 omega">
 
-				<div class="grid_12 payment">
+							<div class="grid-6 step"><a href="flight_iss.html"> FLIGHT </a></div>
+							<div class="grid-6 stepCurrent"><a href="#"> PAYMENT </a></div>
+							<div class="grid-6 step"><a href="confirm.html"> CONFIRMATION </a></div>
+
+				</div>
+
+				<div class="grid_9 payment omega">
 
         <h3>Payment Information</h3>
 
@@ -105,7 +106,7 @@
 
   						<br />
   						<!-- submit button-->
-							<input type="submit" name="submit" value="Submit"/>
+							<a href="confirm.html" class="blackbutton">Confirm Payment</a>
 
 
 

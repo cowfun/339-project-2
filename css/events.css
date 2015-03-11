@@ -107,7 +107,11 @@ p{
 	text-align:center;
 	margin-left:auto;
 	margin-right:auto;
+}
 
+.infoText{
+	line-height: 30px;
+	margin-top: 15px;
 }
 
 
